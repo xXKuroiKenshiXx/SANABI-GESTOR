@@ -1,1 +1,3 @@
-version sacada un sábado la cual tubo problemas de "DATASO" actualmente solucionado esta version es Estable
+📦 Versión publicada un sábado
+Esta versión tuvo un problema con el famoso “DATASO”, pero ya fue solucionado.
+Actualmente se considera estable y segura para usar.

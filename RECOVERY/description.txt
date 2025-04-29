@@ -1,1 +1,1 @@
-este es un archivo de recuperación el cual sirve por si te falla el juego y recuperarías a su version original
+🔧 Recovery es un Version de recuperación te permite restaurar el juego a su versión original en caso de que el mod cause problemas.
