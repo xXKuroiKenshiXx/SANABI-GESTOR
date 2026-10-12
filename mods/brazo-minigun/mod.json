@@ -1,0 +1,21 @@
+{
+  "id": "brazo-minigun",
+  "name": "Brazo minigun · Experimental",
+  "version": "0.2.0",
+  "author": "Kuro Kenshi",
+  "description": "Alterná gancho/minigun con 2. Dispará proyectiles visibles con daño muy bajo: 0,04 HP por impacto, 25 impactos al mismo enemigo para quitar 1 HP. Apuntado con mouse, colisión con paredes, cañones animados, sonido y sobrecalentamiento. Experimental: prueba de combate pendiente.",
+  "category": "habilidades",
+  "requires": [
+    "bepinex"
+  ],
+  "tags": [
+    "minigun",
+    "arma",
+    "experimental"
+  ],
+  "gameVersion": "1.3.53",
+  "preview": "preview.png",
+  "verification": "experimental",
+  "installInstructions": "Cerrá SANABI, elegí su carpeta y pulsá Instalar. Requiere BepInEx 6 IL2CPP pre.1; el gestor ofrece instalarlo. El primer inicio genera las interfaces del juego. En Linux/Proton usá WINEDLLOVERRIDES=\"winhttp=n,b\" %command%. Dentro de la campaña, 2 alterna gancho/minigun; soltá el clic al cambiar y luego mantené clic izquierdo para disparar.",
+  "compatibilityNotes": "Desarrollo experimental para la campaña principal de SANABI Windows 1.3.53, también ejecutable por Proton. No aplica a Major Son ni al control de clones. Los temporizadores y la DLL se validaron; el combate, el apuntado y los efectos deben probarse dentro del juego. El plugin restaura el gancho ante errores de enlace."
+}

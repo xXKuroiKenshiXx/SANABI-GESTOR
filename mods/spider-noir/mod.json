@@ -1,0 +1,19 @@
+{
+  "id": "spider-noir",
+  "name": "Spider Noir",
+  "version": "1.1.0",
+  "author": "Kuro Kenshi",
+  "description": "Máscara negra con lentes blancos, sombrero y gabardina oscura. Telaraña blanca y sonidos sintetizados del gancho.",
+  "category": "skins",
+  "tags": [
+    "skin",
+    "telaraña",
+    "audio",
+    "noir"
+  ],
+  "gameVersion": "1.3.53",
+  "preview": "preview.png",
+  "verification": "package",
+  "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+  "compatibilityNotes": "Campaña principal. Máscara y brazo redibujados; malla de render ampliada para evitar recortes. Elegí una sola skin o capa del héroe a la vez. Conserva los sonidos de telaraña de la versión anterior. Prueba dentro del juego pendiente."
+}

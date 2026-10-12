@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "repos": [
+    {
+      "repo": "boyl/sanabi-infinite-air",
+      "name": "Infinite Air",
+      "author": "boyl",
+      "kind": "mod",
+      "description": "Vuelo libre: con F8 (o LB+RB en el mando) el personaje se queda en el aire y subis o bajas con W/S. Funciona tambien con el personaje del DLC.",
+      "install": "release",
+      "requires": [
+        "bepinex"
+      ],
+      "preview": "mods/_comunidad/infinite-air.png"
+    },
+    {
+      "repo": "Dpawnbad/TooManyBosses",
+      "name": "Too Many Bosses",
+      "author": "Dpawnbad",
+      "kind": "mod",
+      "description": "En la pelea contra el Mayor aparecen tres Mayores a la vez (y la vida se triplica).",
+      "install": "files",
+      "version": "0.0.7",
+      "requires": [
+        "bepinex"
+      ],
+      "note": "No tiene release: se instala el .dll ya compilado que esta dentro del repo.",
+      "files": [
+        {
+          "src": "obj/Debug/netstandard2.1/TooManyBosses.dll",
+          "dst": "BepInEx/plugins/TooManyBosses/TooManyBosses.dll"
+        }
+      ],
+      "preview": "mods/_comunidad/too-many-bosses.png"
+    },
+    {
+      "repo": "Mysterion06/SanabiSplitter",
+      "name": "SanabiSplitter",
+      "author": "Mysterion06",
+      "kind": "herramienta",
+      "description": "Autosplitter para LiveSplit (speedruns): muestra el tiempo de juego y divide por nivel.",
+      "install": "none",
+      "note": "No se instala en el juego: se carga en LiveSplit (Edit Splits > Load Script).",
+      "preview": "mods/_comunidad/sanabi-splitter.png"
+    }
+  ],
+  "blocked": [
+    "LaCumbiaDelCoronavirus/SANABI",
+    "LaCumbiaDelCoronavirus/SanabiLauncher",
+    "LaCumbiaDelCoronavirus/TemplateSanabiMod",
+    "kooyoseb/grappling-armor",
+    "Dong-Wo-Long/SANABI-ost",
+    "falseHellebore/SANABITHEME",
+    "20171193/2D-Project-Sanabi",
+    "IlLa00/Project-SANNABI",
+    "KIA-PROGRAMMING-38/WooSeok_Sanabi-Project",
+    "ZZalbs/ZzapNabi",
+    "jiyongjin12/SANABI_Imitation",
+    "under-star01/MultiSANABI",
+    "under-star01/SingleSANABI",
+    "chamchi0809/SanabiGrapple",
+    "Dormouse0224/Sanabi",
+    "jihowilliamlim-create/Kitsune-Protocol"
+  ]
+}

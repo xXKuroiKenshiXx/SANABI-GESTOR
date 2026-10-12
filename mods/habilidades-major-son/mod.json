@@ -1,0 +1,21 @@
+{
+  "id": "habilidades-major-son",
+  "name": "Major Song · Personaje real en campaña",
+  "version": "0.2.0",
+  "author": "Kuro Kenshi",
+  "description": "Reemplaza al personaje jugable en campaña principal cargando su escena y controlador original DlcPlayer, con sus animaciones y habilidades nativas. No recolorea sprites ni simula ataques externos. Intercambio experimental entre campaña y DLC.",
+  "category": "personajes",
+  "requires": [
+    "bepinex"
+  ],
+  "gameVersion": "1.3.53",
+  "tags": [
+    "personaje real",
+    "controlador nativo",
+    "experimental"
+  ],
+  "preview": "preview.png",
+  "verification": "experimental",
+  "installInstructions": "Cerrá SANABI. Desactivá los intercambios de skin Major Son en campaña/Héroe en DLC y sus plugins anteriores. Instalá este mod desde la ficha; requiere BepInEx 6 IL2CPP pre.1. Reiniciá el juego y cargá el capítulo correspondiente. Usa los controles originales del personaje. En Proton: WINEDLLOVERRIDES=\"winhttp=n,b\" %command%.",
+  "compatibilityNotes": "SANABI 1.3.53 con los recursos del DLC instalados. La DLL se compiló contra las interfaces del juego. Pendiente validar dentro de SANABI: carga del actor, HUD/vida, checkpoints, cinemáticas y scripts que esperan al personaje original. Las campañas incluyen mecánicas específicas del protagonista; no se garantiza completar todos sus capítulos con el otro controlador. No cambia el modo del capítulo ni archivos de partida. Se recomienda probar en selección de capítulos."
+}

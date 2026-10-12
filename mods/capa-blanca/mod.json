@@ -1,0 +1,17 @@
+{
+  "id": "capa-blanca",
+  "name": "Capa blanca",
+  "version": "1.0.0",
+  "author": "Kuro Kenshi",
+  "description": "Capa y faldones del héroe en blanco, conservando sombras y animación.",
+  "category": "skins",
+  "tags": [
+    "skin",
+    "capa"
+  ],
+  "gameVersion": "1.3.53",
+  "preview": "preview.png",
+  "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+  "compatibilityNotes": "Campaña principal. Reemplaza snb.bundle: elegí una sola capa o skin del héroe a la vez. Conserva el gancho, los sonidos y las habilidades originales.",
+  "verification": "package"
+}

@@ -1,0 +1,15 @@
+gestor/bin/
+gestor/obj/
+gestor/publish/
+gestor/dist/
+*.user
+.vs/
+__pycache__/
+SanabiGestor-data/
+dist/
+gestor-tools/
+mods/_qa/
+qa/**/bin/
+qa/**/obj/
+mods/**/bin/
+mods/**/obj/

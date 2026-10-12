@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../mods/traduccion-latam-fan/fuente/TranslationCompiler.cs" Link="ArchivedTranslationCompiler.cs" />
+    <Compile Include="../../mods/brazo-minigun/fuente/GunLogic.cs" Link="GunLogic.cs" />
+    <Compile Include="../../mods/brazo-minigun/fuente/FractionalDamage.cs" Link="FractionalDamage.cs" />
+    <Compile Include="../../mods/habilidades-major-son/fuente/native/HealthBridge.cs" Link="HealthBridge.cs" />
+    <ProjectReference Include="../../gestor/SanabiGestor.csproj" />
+    <PackageReference Include="Avalonia.Headless" Version="11.3.22" />
+  </ItemGroup>
+</Project>

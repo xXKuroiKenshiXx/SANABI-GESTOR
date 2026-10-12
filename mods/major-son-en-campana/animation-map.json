@@ -1,0 +1,3492 @@
+[
+  {
+    "target": "Spr_SNB_ShotGNDUp (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDUp (2)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDUp (3)",
+    "source": "Spr_SPC_MeleeAttack1st (4)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDUp (4)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (2)",
+    "source": "Spr_SPC_AirJump (2)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (3)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (4)",
+    "source": "Spr_SPC_AirJump (4)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (5)",
+    "source": "Spr_SPC_AirJump (5)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (6)",
+    "source": "Spr_SPC_AirJump (6)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (7)",
+    "source": "Spr_SPC_AirJump (7)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (8)",
+    "source": "Spr_SPC_AirJump (8)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (9)",
+    "source": "Spr_SPC_AirJump (9)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (10)",
+    "source": "Spr_SPC_AirJump (11)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (11)",
+    "source": "Spr_SPC_AirJump (12)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (12)",
+    "source": "Spr_SPC_AirJump (13)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (13)",
+    "source": "Spr_SPC_AirJump (14)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (14)",
+    "source": "Spr_SPC_AirJump (15)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (15)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (16)",
+    "source": "Spr_SPC_AirJump (17)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDash (17)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (1)",
+    "source": "Spr_SPC_Land2Run (1)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (2)",
+    "source": "Spr_SPC_Land2Run (2)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (3)",
+    "source": "Spr_SPC_Land2Run (3)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (4)",
+    "source": "Spr_SPC_Land2Run (4)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (5)",
+    "source": "Spr_SPC_Land2Run (5)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (6)",
+    "source": "Spr_SPC_Land2Run (6)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (7)",
+    "source": "Spr_SPC_Land2Run (7)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (8)",
+    "source": "Spr_SPC_Land2Run (8)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (9)",
+    "source": "Spr_SPC_Land2Run (9)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (10)",
+    "source": "Spr_SPC_Land2Run (10)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (11)",
+    "source": "Spr_SPC_Land2Run (11)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_Land2Run (12)",
+    "source": "Spr_SPC_Land2Run (12)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SNB_LookAround03 (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround03 (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround03 (3)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround03 (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround03 (5)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround03 (6)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithWinding (lp) (1)",
+    "source": "Spr_SPC_WallSlideLoop (1)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithWinding (lp) (2)",
+    "source": "Spr_SPC_WallSlideLoop (2)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithWinding (lp) (3)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithWinding (lp) (4)",
+    "source": "Spr_SPC_WallSlideLoop (4)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithWinding (lp) (5)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithWinding (lp) (6)",
+    "source": "Spr_SPC_WallSlideLoop (6)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateStart (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateStart (3)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateStart (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateStart (5)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateStart (6)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SwingJump (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJump (2)",
+    "source": "Spr_SPC_Jumping (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJump (3)",
+    "source": "Spr_SPC_Jumping (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJump (4)",
+    "source": "Spr_SPC_Jumping (7)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJump (5)",
+    "source": "Spr_SPC_Jumping (9)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJump (6)",
+    "source": "Spr_SPC_Jumping (10)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJump (7)",
+    "source": "Spr_SPC_Jumping (12)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJump (8)",
+    "source": "Spr_SPC_Jumping (14)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJump (9)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Idle (lp) (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Idle (lp) (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Idle (lp) (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Idle (lp) (4)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Idle (lp) (5)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Idle (lp) (6)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Idle (lp) (7)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Idle (lp) (8)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteStart (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteStart (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteStart (4)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteStart (5)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteStart (6)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteStart (7)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteStart (8)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Dash (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Dash (2)",
+    "source": "Spr_SPC_AirJump (7)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Dash (3)",
+    "source": "Spr_SPC_AirJump (12)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Dash (4)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_SighEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighEnd (2)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighEnd (3)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighEnd (4)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighEnd (5)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (1)",
+    "source": "Spr_SPC_WallSlideLoop (1)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (2)",
+    "source": "Spr_SPC_WallSlideLoop (1)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (3)",
+    "source": "Spr_SPC_WallSlideLoop (2)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (4)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (5)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (6)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (7)",
+    "source": "Spr_SPC_WallSlideLoop (4)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (8)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (9)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (10)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSliding (lp) (11)",
+    "source": "Spr_SPC_WallSlideLoop (6)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (1)",
+    "source": "Spr_SPC_RandomIdle1Loop (1)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (2)",
+    "source": "Spr_SPC_RandomIdle1Loop (4)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (3)",
+    "source": "Spr_SPC_RandomIdle1Loop (7)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (4)",
+    "source": "Spr_SPC_RandomIdle1Loop (10)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (5)",
+    "source": "Spr_SPC_RandomIdle1Loop (13)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (6)",
+    "source": "Spr_SPC_RandomIdle1Loop (16)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (7)",
+    "source": "Spr_SPC_RandomIdle1Loop (19)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (8)",
+    "source": "Spr_SPC_RandomIdle1Loop (22)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (9)",
+    "source": "Spr_SPC_RandomIdle1Loop (25)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (10)",
+    "source": "Spr_SPC_RandomIdle1Loop (28)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (11)",
+    "source": "Spr_SPC_RandomIdle1Loop (32)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (12)",
+    "source": "Spr_SPC_RandomIdle1Loop (35)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (13)",
+    "source": "Spr_SPC_RandomIdle1Loop (38)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (14)",
+    "source": "Spr_SPC_RandomIdle1Loop (41)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (15)",
+    "source": "Spr_SPC_RandomIdle1Loop (44)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (16)",
+    "source": "Spr_SPC_RandomIdle1Loop (47)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (17)",
+    "source": "Spr_SPC_RandomIdle1Loop (50)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (18)",
+    "source": "Spr_SPC_RandomIdle1Loop (53)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (19)",
+    "source": "Spr_SPC_RandomIdle1Loop (56)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand1 (20)",
+    "source": "Spr_SPC_RandomIdle1Loop (59)",
+    "group": "RandomIdle1Loop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (1)",
+    "source": "Spr_SPC_WallClimpUpLoop (1)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (2)",
+    "source": "Spr_SPC_WallClimpUpLoop (2)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (3)",
+    "source": "Spr_SPC_WallClimpUpLoop (3)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (4)",
+    "source": "Spr_SPC_WallClimpUpLoop (4)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (5)",
+    "source": "Spr_SPC_WallClimpUpLoop (5)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (6)",
+    "source": "Spr_SPC_WallClimpUpLoop (6)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (7)",
+    "source": "Spr_SPC_WallClimpUpLoop (7)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (8)",
+    "source": "Spr_SPC_WallClimpUpLoop (8)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (9)",
+    "source": "Spr_SPC_WallClimpUpLoop (9)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbUp (lp) (10)",
+    "source": "Spr_SPC_WallClimpUpLoop (10)",
+    "group": "WallClimpUpLoop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (1)",
+    "source": "Spr_SPC_RandomIdle2Loop (1)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (2)",
+    "source": "Spr_SPC_RandomIdle2Loop (5)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (3)",
+    "source": "Spr_SPC_RandomIdle2Loop (8)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (4)",
+    "source": "Spr_SPC_RandomIdle2Loop (12)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (5)",
+    "source": "Spr_SPC_RandomIdle2Loop (16)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (6)",
+    "source": "Spr_SPC_RandomIdle2Loop (19)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (7)",
+    "source": "Spr_SPC_RandomIdle2Loop (23)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (8)",
+    "source": "Spr_SPC_RandomIdle2Loop (26)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (9)",
+    "source": "Spr_SPC_RandomIdle2Loop (30)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (10)",
+    "source": "Spr_SPC_RandomIdle2Loop (34)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (11)",
+    "source": "Spr_SPC_RandomIdle2Loop (37)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (12)",
+    "source": "Spr_SPC_RandomIdle2Loop (41)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (13)",
+    "source": "Spr_SPC_RandomIdle2Loop (45)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (14)",
+    "source": "Spr_SPC_RandomIdle2Loop (48)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (15)",
+    "source": "Spr_SPC_RandomIdle2Loop (52)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (16)",
+    "source": "Spr_SPC_RandomIdle2Loop (55)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (17)",
+    "source": "Spr_SPC_RandomIdle2Loop (59)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (18)",
+    "source": "Spr_SPC_RandomIdle2Loop (63)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (19)",
+    "source": "Spr_SPC_RandomIdle2Loop (66)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_IdleRand2 (20)",
+    "source": "Spr_SPC_RandomIdle2Loop (70)",
+    "group": "RandomIdle2Loop"
+  },
+  {
+    "target": "Spr_SNB_WalkEnd (1)",
+    "source": "Spr_SPC_RunLoop (1)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_WalkEnd (2)",
+    "source": "Spr_SPC_RunLoop (4)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_WalkEnd (3)",
+    "source": "Spr_SPC_RunLoop (7)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_WalkEnd (4)",
+    "source": "Spr_SPC_RunLoop (10)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Watch2Headache (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Watch2Headache (2)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Watch2Headache (3)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Watch2Headache (4)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Watch2Headache (5)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Death (1)",
+    "source": "Spr_SPC_Damaged (1)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (2)",
+    "source": "Spr_SPC_Damaged (1)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (3)",
+    "source": "Spr_SPC_Damaged (1)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (4)",
+    "source": "Spr_SPC_Damaged (2)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (5)",
+    "source": "Spr_SPC_Damaged (2)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (6)",
+    "source": "Spr_SPC_Damaged (2)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (7)",
+    "source": "Spr_SPC_Damaged (2)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (8)",
+    "source": "Spr_SPC_Damaged (2)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (9)",
+    "source": "Spr_SPC_Damaged (2)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (10)",
+    "source": "Spr_SPC_Damaged (3)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (11)",
+    "source": "Spr_SPC_Damaged (3)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (12)",
+    "source": "Spr_SPC_Damaged (3)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (13)",
+    "source": "Spr_SPC_Damaged (3)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (14)",
+    "source": "Spr_SPC_Damaged (3)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (15)",
+    "source": "Spr_SPC_Damaged (3)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (16)",
+    "source": "Spr_SPC_Damaged (4)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (17)",
+    "source": "Spr_SPC_Damaged (4)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (18)",
+    "source": "Spr_SPC_Damaged (4)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (19)",
+    "source": "Spr_SPC_Damaged (4)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (20)",
+    "source": "Spr_SPC_Damaged (4)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (21)",
+    "source": "Spr_SPC_Damaged (4)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (22)",
+    "source": "Spr_SPC_Damaged (5)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (23)",
+    "source": "Spr_SPC_Damaged (5)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Death (24)",
+    "source": "Spr_SPC_Damaged (5)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (2)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (3)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (4)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (5)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (6)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (7)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (8)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (9)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (10)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (11)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (12)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (13)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (14)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (15)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Moving (lp) (16)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (1)",
+    "source": "Spr_SPC_RunLoop (1)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (2)",
+    "source": "Spr_SPC_RunLoop (1)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (3)",
+    "source": "Spr_SPC_RunLoop (2)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (4)",
+    "source": "Spr_SPC_RunLoop (2)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (5)",
+    "source": "Spr_SPC_RunLoop (3)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (6)",
+    "source": "Spr_SPC_RunLoop (3)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (7)",
+    "source": "Spr_SPC_RunLoop (4)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (8)",
+    "source": "Spr_SPC_RunLoop (4)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (9)",
+    "source": "Spr_SPC_RunLoop (5)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (10)",
+    "source": "Spr_SPC_RunLoop (5)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (11)",
+    "source": "Spr_SPC_RunLoop (6)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (12)",
+    "source": "Spr_SPC_RunLoop (6)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (13)",
+    "source": "Spr_SPC_RunLoop (7)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (14)",
+    "source": "Spr_SPC_RunLoop (7)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (15)",
+    "source": "Spr_SPC_RunLoop (8)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (16)",
+    "source": "Spr_SPC_RunLoop (8)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (17)",
+    "source": "Spr_SPC_RunLoop (9)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (18)",
+    "source": "Spr_SPC_RunLoop (9)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (19)",
+    "source": "Spr_SPC_RunLoop (10)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Running (lp) (20)",
+    "source": "Spr_SPC_RunLoop (10)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheStart (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheStart (3)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheStart (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheStart (5)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheStart (6)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Front (lp) (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Front (lp) (2)",
+    "source": "Spr_SPC_MeleeAttack1st (2)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Front (lp) (3)",
+    "source": "Spr_SPC_MeleeAttack1st (2)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Front (lp) (4)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Front (lp) (5)",
+    "source": "Spr_SPC_MeleeAttack1st (4)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Front (lp) (6)",
+    "source": "Spr_SPC_MeleeAttack1st (5)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Front (lp) (7)",
+    "source": "Spr_SPC_MeleeAttack1st (5)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Front (lp) (8)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_LookAround02 (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround02 (2)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround02 (3)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround02 (4)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround02 (5)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (2)",
+    "source": "Spr_SPC_AirJump (2)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (3)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (4)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (5)",
+    "source": "Spr_SPC_AirJump (4)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (6)",
+    "source": "Spr_SPC_AirJump (5)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (7)",
+    "source": "Spr_SPC_AirJump (6)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (8)",
+    "source": "Spr_SPC_AirJump (6)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (9)",
+    "source": "Spr_SPC_AirJump (7)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (10)",
+    "source": "Spr_SPC_AirJump (8)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (11)",
+    "source": "Spr_SPC_AirJump (9)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (12)",
+    "source": "Spr_SPC_AirJump (9)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (13)",
+    "source": "Spr_SPC_AirJump (10)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (14)",
+    "source": "Spr_SPC_AirJump (11)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (15)",
+    "source": "Spr_SPC_AirJump (12)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (16)",
+    "source": "Spr_SPC_AirJump (13)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (17)",
+    "source": "Spr_SPC_AirJump (13)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (18)",
+    "source": "Spr_SPC_AirJump (14)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (19)",
+    "source": "Spr_SPC_AirJump (15)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (20)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (21)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (22)",
+    "source": "Spr_SPC_AirJump (17)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeStart (23)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_DashEndGround (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_DashEndGround (2)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_DashEndGround (3)",
+    "source": "Spr_SPC_AirJump (6)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_DashEndGround (4)",
+    "source": "Spr_SPC_AirJump (8)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_DashEndGround (5)",
+    "source": "Spr_SPC_AirJump (11)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_DashEndGround (6)",
+    "source": "Spr_SPC_AirJump (13)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_DashEndGround (7)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_DashEndGround (8)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (2)",
+    "source": "Spr_SPC_Jumping (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (3)",
+    "source": "Spr_SPC_Jumping (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (4)",
+    "source": "Spr_SPC_Jumping (6)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (5)",
+    "source": "Spr_SPC_Jumping (8)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (6)",
+    "source": "Spr_SPC_Jumping (9)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (7)",
+    "source": "Spr_SPC_Jumping (11)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (8)",
+    "source": "Spr_SPC_Jumping (13)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (9)",
+    "source": "Spr_SPC_Jumping (14)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Front (lp) (10)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Jumping (lp) (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Jumping (lp) (2)",
+    "source": "Spr_SPC_Jumping (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Jumping (lp) (3)",
+    "source": "Spr_SPC_Jumping (7)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Jumping (lp) (4)",
+    "source": "Spr_SPC_Jumping (10)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Jumping (lp) (5)",
+    "source": "Spr_SPC_Jumping (13)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Jumping (lp) (6)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (1)",
+    "source": "Spr_SPC_WallSlideLoop (1)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (2)",
+    "source": "Spr_SPC_WallSlideLoop (1)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (3)",
+    "source": "Spr_SPC_WallSlideLoop (2)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (4)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (5)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (6)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (7)",
+    "source": "Spr_SPC_WallSlideLoop (4)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (8)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (9)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (10)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwingStart (11)",
+    "source": "Spr_SPC_WallSlideLoop (6)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_Rappelling (lp) (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Rappelling (lp) (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Rappelling (lp) (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Rappelling (lp) (4)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Rappelling (lp) (5)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Rappelling (lp) (6)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Rappelling (lp) (7)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Rappelling (lp) (8)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (4)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (5)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (6)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (7)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (8)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (9)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateLoop (lp) (10)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeEnd (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeEnd (2)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeEnd (3)",
+    "source": "Spr_SPC_AirJump (5)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeEnd (4)",
+    "source": "Spr_SPC_AirJump (7)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeEnd (5)",
+    "source": "Spr_SPC_AirJump (9)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeEnd (6)",
+    "source": "Spr_SPC_AirJump (12)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeEnd (7)",
+    "source": "Spr_SPC_AirJump (14)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeEnd (8)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeEnd (9)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_InvestigateEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateEnd (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateEnd (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateEnd (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateEnd (5)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateEnd (6)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_InvestigateEnd (7)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteEnd (2)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteEnd (3)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteEnd (4)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_FormalSaluteEnd (5)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (2)",
+    "source": "Spr_SPC_Jumping (2)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (3)",
+    "source": "Spr_SPC_Jumping (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (4)",
+    "source": "Spr_SPC_Jumping (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (5)",
+    "source": "Spr_SPC_Jumping (6)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (6)",
+    "source": "Spr_SPC_Jumping (7)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (7)",
+    "source": "Spr_SPC_Jumping (8)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (8)",
+    "source": "Spr_SPC_Jumping (9)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (9)",
+    "source": "Spr_SPC_Jumping (10)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (10)",
+    "source": "Spr_SPC_Jumping (11)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (11)",
+    "source": "Spr_SPC_Jumping (13)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (12)",
+    "source": "Spr_SPC_Jumping (14)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (13)",
+    "source": "Spr_SPC_Jumping (15)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRideStart (14)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_LookAroundEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAroundEnd (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAroundEnd (3)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAroundEnd (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAroundEnd (5)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAroundEnd (6)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (2)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (3)",
+    "source": "Spr_SPC_AirJump (5)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (4)",
+    "source": "Spr_SPC_AirJump (7)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (5)",
+    "source": "Spr_SPC_AirJump (9)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (6)",
+    "source": "Spr_SPC_AirJump (10)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (7)",
+    "source": "Spr_SPC_AirJump (12)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (8)",
+    "source": "Spr_SPC_AirJump (14)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (9)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDash (10)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeLoop (lp) (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeLoop (lp) (2)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeLoop (lp) (3)",
+    "source": "Spr_SPC_AirJump (6)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeLoop (lp) (4)",
+    "source": "Spr_SPC_AirJump (8)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeLoop (lp) (5)",
+    "source": "Spr_SPC_AirJump (11)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeLoop (lp) (6)",
+    "source": "Spr_SPC_AirJump (13)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeLoop (lp) (7)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashChargeLoop (lp) (8)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDFront (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDFront (2)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDFront (3)",
+    "source": "Spr_SPC_MeleeAttack1st (4)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDFront (4)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_OfflineStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineStart (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineStart (3)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineStart (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineStart (5)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineStart (6)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideStart (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideStart (3)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideStart (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideStart (5)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideStart (6)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Back (lp) (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Back (lp) (2)",
+    "source": "Spr_SPC_Jumping (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Back (lp) (3)",
+    "source": "Spr_SPC_Jumping (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Back (lp) (4)",
+    "source": "Spr_SPC_Jumping (7)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Back (lp) (5)",
+    "source": "Spr_SPC_Jumping (10)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Back (lp) (6)",
+    "source": "Spr_SPC_Jumping (12)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Back (lp) (7)",
+    "source": "Spr_SPC_Jumping (14)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Back (lp) (8)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (2)",
+    "source": "Spr_SPC_MeleeAttack1st (2)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (3)",
+    "source": "Spr_SPC_MeleeAttack1st (2)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (4)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (5)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (6)",
+    "source": "Spr_SPC_MeleeAttack1st (4)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (7)",
+    "source": "Spr_SPC_MeleeAttack1st (4)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (8)",
+    "source": "Spr_SPC_MeleeAttack1st (5)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (9)",
+    "source": "Spr_SPC_MeleeAttack1st (5)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ChargeAttack (10)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_OfflineEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineEnd (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineEnd (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineEnd (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineEnd (5)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineEnd (6)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineEnd (7)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamEnd (2)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamEnd (3)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamEnd (4)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ExcDashEndGround (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDashEndGround (2)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDashEndGround (3)",
+    "source": "Spr_SPC_AirJump (6)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDashEndGround (4)",
+    "source": "Spr_SPC_AirJump (8)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDashEndGround (5)",
+    "source": "Spr_SPC_AirJump (11)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDashEndGround (6)",
+    "source": "Spr_SPC_AirJump (13)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDashEndGround (7)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcDashEndGround (8)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Back (lp) (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Back (lp) (2)",
+    "source": "Spr_SPC_MeleeAttack1st (2)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Back (lp) (3)",
+    "source": "Spr_SPC_MeleeAttack1st (2)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Back (lp) (4)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Back (lp) (5)",
+    "source": "Spr_SPC_MeleeAttack1st (4)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Back (lp) (6)",
+    "source": "Spr_SPC_MeleeAttack1st (5)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Back (lp) (7)",
+    "source": "Spr_SPC_MeleeAttack1st (5)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Back (lp) (8)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_RopeSlidingAtBot (lp) (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_RopeSlidingAtBot (lp) (2)",
+    "source": "Spr_SPC_Jumping (6)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_RopeSlidingAtBot (lp) (3)",
+    "source": "Spr_SPC_Jumping (11)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_RopeSlidingAtBot (lp) (4)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Roll2Fall (1)",
+    "source": "Spr_SPC_FallLoop (1)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_Roll2Fall (2)",
+    "source": "Spr_SPC_FallLoop (1)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_Roll2Fall (3)",
+    "source": "Spr_SPC_FallLoop (2)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_Roll2Fall (4)",
+    "source": "Spr_SPC_FallLoop (2)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_Roll2Fall (5)",
+    "source": "Spr_SPC_FallLoop (3)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_Roll2Fall (6)",
+    "source": "Spr_SPC_FallLoop (3)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_Roll2Fall (7)",
+    "source": "Spr_SPC_FallLoop (4)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_Roll2Fall (8)",
+    "source": "Spr_SPC_FallLoop (4)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineLoop (lp) (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineLoop (lp) (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineLoop (lp) (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineLoop (lp) (4)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineLoop (lp) (5)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineLoop (lp) (6)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineLoop (lp) (7)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_OfflineLoop (lp) (8)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (1)",
+    "source": "Spr_SPC_RunLoop (1)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (2)",
+    "source": "Spr_SPC_RunLoop (2)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (3)",
+    "source": "Spr_SPC_RunLoop (3)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (4)",
+    "source": "Spr_SPC_RunLoop (3)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (5)",
+    "source": "Spr_SPC_RunLoop (4)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (6)",
+    "source": "Spr_SPC_RunLoop (5)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (7)",
+    "source": "Spr_SPC_RunLoop (6)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (8)",
+    "source": "Spr_SPC_RunLoop (7)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (9)",
+    "source": "Spr_SPC_RunLoop (8)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (10)",
+    "source": "Spr_SPC_RunLoop (8)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (11)",
+    "source": "Spr_SPC_RunLoop (9)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Walking (lp) (12)",
+    "source": "Spr_SPC_RunLoop (10)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (3)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (4)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (5)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (6)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (7)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (8)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (9)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (10)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (11)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (12)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Salute (13)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDDown (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDDown (2)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDDown (3)",
+    "source": "Spr_SPC_MeleeAttack1st (4)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotGNDDown (4)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (4)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (5)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (6)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (7)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (8)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (9)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HideEnd (10)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Headache2Watch2Idle (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Headache2Watch2Idle (2)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_MoveStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_MoveStart (2)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_MoveStart (3)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheEnd (2)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheEnd (3)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_StandHeadacheEnd (4)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (1)",
+    "source": "Spr_SPC_WallSlideLoop (1)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (2)",
+    "source": "Spr_SPC_WallSlideLoop (1)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (3)",
+    "source": "Spr_SPC_WallSlideLoop (2)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (4)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (5)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (6)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (7)",
+    "source": "Spr_SPC_WallSlideLoop (4)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (8)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (9)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (10)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideWithSwing (lp) (11)",
+    "source": "Spr_SPC_WallSlideLoop (6)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (4)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (5)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (6)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (7)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (8)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (9)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SlamStart (10)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Start (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Start (2)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Start (3)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Start (4)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Start (5)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_RunStop (1)",
+    "source": "Spr_SPC_RunStop (1)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SNB_RunStop (2)",
+    "source": "Spr_SPC_RunStop (2)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SNB_RunStop (3)",
+    "source": "Spr_SPC_RunStop (3)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SNB_RunStop (4)",
+    "source": "Spr_SPC_RunStop (3)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SNB_RunStop (5)",
+    "source": "Spr_SPC_RunStop (4)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SNB_RunStop (6)",
+    "source": "Spr_SPC_RunStop (5)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardStart (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardStart (3)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardStart (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardStart (5)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardStart (6)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashEndGround (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashEndGround (2)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashEndGround (3)",
+    "source": "Spr_SPC_AirJump (6)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashEndGround (4)",
+    "source": "Spr_SPC_AirJump (8)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashEndGround (5)",
+    "source": "Spr_SPC_AirJump (11)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashEndGround (6)",
+    "source": "Spr_SPC_AirJump (13)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashEndGround (7)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_ChargeDashEndGround (8)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (3)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (4)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (5)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (6)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (7)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (8)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (9)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (10)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (11)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (12)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (13)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_HeadacheStart (14)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (1)",
+    "source": "Spr_SPC_AirJump (1)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (2)",
+    "source": "Spr_SPC_AirJump (3)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (3)",
+    "source": "Spr_SPC_AirJump (4)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (4)",
+    "source": "Spr_SPC_AirJump (6)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (5)",
+    "source": "Spr_SPC_AirJump (7)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (6)",
+    "source": "Spr_SPC_AirJump (9)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (7)",
+    "source": "Spr_SPC_AirJump (10)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (8)",
+    "source": "Spr_SPC_AirJump (12)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (9)",
+    "source": "Spr_SPC_AirJump (13)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (10)",
+    "source": "Spr_SPC_AirJump (15)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (11)",
+    "source": "Spr_SPC_AirJump (16)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Rolling (lp) (12)",
+    "source": "Spr_SPC_AirJump (18)",
+    "group": "AirJump"
+  },
+  {
+    "target": "Spr_SNB_Landing (1)",
+    "source": "Spr_SPC_Land (1)",
+    "group": "Land"
+  },
+  {
+    "target": "Spr_SNB_Landing (2)",
+    "source": "Spr_SPC_Land (3)",
+    "group": "Land"
+  },
+  {
+    "target": "Spr_SNB_Landing (3)",
+    "source": "Spr_SPC_Land (6)",
+    "group": "Land"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (3)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (4)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (5)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (6)",
+    "source": "Spr_SPC_IdleLoop (4)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (7)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (8)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (9)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (10)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (11)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Idle (lp) (12)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Swing (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (2)",
+    "source": "Spr_SPC_Jumping (2)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (3)",
+    "source": "Spr_SPC_Jumping (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (4)",
+    "source": "Spr_SPC_Jumping (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (5)",
+    "source": "Spr_SPC_Jumping (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (6)",
+    "source": "Spr_SPC_Jumping (6)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (7)",
+    "source": "Spr_SPC_Jumping (7)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (8)",
+    "source": "Spr_SPC_Jumping (9)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (9)",
+    "source": "Spr_SPC_Jumping (10)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (10)",
+    "source": "Spr_SPC_Jumping (11)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (11)",
+    "source": "Spr_SPC_Jumping (12)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (12)",
+    "source": "Spr_SPC_Jumping (13)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (13)",
+    "source": "Spr_SPC_Jumping (14)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (14)",
+    "source": "Spr_SPC_Jumping (15)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Swing (15)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_Damaged (1)",
+    "source": "Spr_SPC_Damaged (1)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Damaged (2)",
+    "source": "Spr_SPC_Damaged (2)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Damaged (3)",
+    "source": "Spr_SPC_Damaged (3)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Damaged (4)",
+    "source": "Spr_SPC_Damaged (4)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_Damaged (5)",
+    "source": "Spr_SPC_Damaged (5)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Jump (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Jump (2)",
+    "source": "Spr_SPC_Jumping (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Jump (3)",
+    "source": "Spr_SPC_Jumping (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Jump (4)",
+    "source": "Spr_SPC_Jumping (7)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Jump (5)",
+    "source": "Spr_SPC_Jumping (9)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Jump (6)",
+    "source": "Spr_SPC_Jumping (10)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Jump (7)",
+    "source": "Spr_SPC_Jumping (12)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Jump (8)",
+    "source": "Spr_SPC_Jumping (14)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_Jump (9)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_RopeSliding (lp) (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_RopeSliding (lp) (2)",
+    "source": "Spr_SPC_Jumping (9)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_RopeSliding (lp) (3)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SighStart (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighStart (2)",
+    "source": "Spr_SPC_IdleLoop (2)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighStart (3)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighStart (4)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighStart (5)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighStart (6)",
+    "source": "Spr_SPC_IdleLoop (7)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SighStart (7)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Neu (lp) (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Neu (lp) (2)",
+    "source": "Spr_SPC_Jumping (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Neu (lp) (3)",
+    "source": "Spr_SPC_Jumping (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Neu (lp) (4)",
+    "source": "Spr_SPC_Jumping (7)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Neu (lp) (5)",
+    "source": "Spr_SPC_Jumping (10)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Neu (lp) (6)",
+    "source": "Spr_SPC_Jumping (12)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Neu (lp) (7)",
+    "source": "Spr_SPC_Jumping (14)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SkylineRiding_Neu (lp) (8)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (1)",
+    "source": "Spr_SPC_WallSlideLoop (1)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (2)",
+    "source": "Spr_SPC_WallSlideLoop (1)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (3)",
+    "source": "Spr_SPC_WallSlideLoop (2)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (4)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (5)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (6)",
+    "source": "Spr_SPC_WallSlideLoop (3)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (7)",
+    "source": "Spr_SPC_WallSlideLoop (4)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (8)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (9)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (10)",
+    "source": "Spr_SPC_WallSlideLoop (5)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_WallSlideStart (11)",
+    "source": "Spr_SPC_WallSlideLoop (6)",
+    "group": "WallSlideLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround01 (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround01 (2)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround01 (3)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Falling (lp) (1)",
+    "source": "Spr_SPC_FallLoop (1)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_Falling (lp) (2)",
+    "source": "Spr_SPC_FallLoop (3)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_Falling (lp) (3)",
+    "source": "Spr_SPC_FallLoop (4)",
+    "group": "FallLoop"
+  },
+  {
+    "target": "Spr_SNB_ShotAIRFront (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotAIRFront (2)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotAIRFront (3)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_SwingJumpUp (1)",
+    "source": "Spr_SPC_Jumping (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJumpUp (2)",
+    "source": "Spr_SPC_Jumping (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJumpUp (3)",
+    "source": "Spr_SPC_Jumping (9)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJumpUp (4)",
+    "source": "Spr_SPC_Jumping (12)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_SwingJumpUp (5)",
+    "source": "Spr_SPC_Jumping (16)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardEnd (2)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardEnd (3)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardEnd (4)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ThinkHardEnd (5)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_RunStart (1)",
+    "source": "Spr_SPC_RunStart (1)",
+    "group": "RunStart"
+  },
+  {
+    "target": "Spr_SNB_RunStart (2)",
+    "source": "Spr_SPC_RunStart (6)",
+    "group": "RunStart"
+  },
+  {
+    "target": "Spr_SNB_ExcWinding (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcWinding (2)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_Headache2Watch (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Headache2Watch (2)",
+    "source": "Spr_SPC_IdleLoop (3)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Headache2Watch (3)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Headache2Watch (4)",
+    "source": "Spr_SPC_IdleLoop (6)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_Headache2Watch (5)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbDown (lp) (1)",
+    "source": "Spr_SPC_WallClimbDownLoop (1)",
+    "group": "WallClimbDownLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbDown (lp) (2)",
+    "source": "Spr_SPC_WallClimbDownLoop (2)",
+    "group": "WallClimbDownLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbDown (lp) (3)",
+    "source": "Spr_SPC_WallClimbDownLoop (3)",
+    "group": "WallClimbDownLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbDown (lp) (4)",
+    "source": "Spr_SPC_WallClimbDownLoop (3)",
+    "group": "WallClimbDownLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbDown (lp) (5)",
+    "source": "Spr_SPC_WallClimbDownLoop (4)",
+    "group": "WallClimbDownLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbDown (lp) (6)",
+    "source": "Spr_SPC_WallClimbDownLoop (5)",
+    "group": "WallClimbDownLoop"
+  },
+  {
+    "target": "Spr_SNB_WallClimbDown (lp) (7)",
+    "source": "Spr_SPC_WallClimbDownLoop (6)",
+    "group": "WallClimbDownLoop"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Neu (lp) (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Neu (lp) (2)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Neu (lp) (3)",
+    "source": "Spr_SPC_MeleeAttack1st (4)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ExcHolding_Neu (lp) (4)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_WalkStart (1)",
+    "source": "Spr_SPC_RunLoop (1)",
+    "group": "RunLoop"
+  },
+  {
+    "target": "Spr_SNB_FallStart (1)",
+    "source": "Spr_SPC_FallStart (1)",
+    "group": "FallStart"
+  },
+  {
+    "target": "Spr_SNB_FallStart (2)",
+    "source": "Spr_SPC_FallStart (3)",
+    "group": "FallStart"
+  },
+  {
+    "target": "Spr_SNB_FallStart (3)",
+    "source": "Spr_SPC_FallStart (5)",
+    "group": "FallStart"
+  },
+  {
+    "target": "Spr_SNB_LookAround01End (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround01End (2)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_LookAround01End (3)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ShotAIRUp (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotAIRUp (2)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotAIRUp (3)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_MoveEnd (1)",
+    "source": "Spr_SPC_IdleLoop (1)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_MoveEnd (2)",
+    "source": "Spr_SPC_IdleLoop (5)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_CeilingStick_MoveEnd (3)",
+    "source": "Spr_SPC_IdleLoop (8)",
+    "group": "IdleLoop"
+  },
+  {
+    "target": "Spr_SNB_ShotAIRDown (1)",
+    "source": "Spr_SPC_MeleeAttack1st (1)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotAIRDown (2)",
+    "source": "Spr_SPC_MeleeAttack1st (3)",
+    "group": "MeleeAttack1st"
+  },
+  {
+    "target": "Spr_SNB_ShotAIRDown (3)",
+    "source": "Spr_SPC_MeleeAttack1st (6)",
+    "group": "MeleeAttack1st"
+  }
+]

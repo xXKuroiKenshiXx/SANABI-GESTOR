@@ -1,0 +1,381 @@
+{
+  "id": "traduccion-latam-fan",
+  "name": "Español LATAM · Traducción fan",
+  "version": "2025.6.21",
+  "author": "Kuro Kenshi y colaboradores",
+  "description": "Cinco ediciones históricas de la traducción LATAM, con selector, instalación reversible y soporte Windows / Steam-Proton en Linux. Descarga e instala los .bundle del repositorio según la fecha elegida; no traduce en tiempo real. Los bundles históricos son anteriores al español oficial y al DLC.",
+  "category": "traduccion",
+  "tags": [
+    "espanol",
+    "latam",
+    "texto"
+  ],
+  "gameVersion": "<1.3.48",
+  "homepage": "https://steamcommunity.com/sharedfiles/filedetails/?id=3345617617",
+  "base": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS",
+  "files": [
+    {
+      "src": "chap1.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle"
+    },
+    {
+      "src": "chap2.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle"
+    },
+    {
+      "src": "chap3.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle"
+    },
+    {
+      "src": "chap4.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle"
+    },
+    {
+      "src": "chap5.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle"
+    },
+    {
+      "src": "prlg.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle"
+    },
+    {
+      "src": "ending.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle"
+    },
+    {
+      "src": "dataso_assets_all.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle"
+    },
+    {
+      "src": "font.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle"
+    },
+    {
+      "src": "imagen_del_prologo/prlg.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle"
+    },
+    {
+      "src": "mainscene.unity.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle"
+    },
+    {
+      "src": "imagen_del_ending/chapending_endingcredit.unity.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle"
+    },
+    {
+      "src": "imagen_del_capitulo_2/chap2_s02_e.bundle",
+      "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle"
+    }
+  ],
+  "preview": "preview.png",
+  "variants": [
+    {
+      "label": "21/06/2025 · LATAM fan",
+      "version": "2025.6.21",
+      "base": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS",
+      "gameVersion": "<1.3.48",
+      "files": [
+        {
+          "src": "chap1.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle"
+        },
+        {
+          "src": "chap2.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle"
+        },
+        {
+          "src": "chap3.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle"
+        },
+        {
+          "src": "chap4.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle"
+        },
+        {
+          "src": "chap5.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle"
+        },
+        {
+          "src": "prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle"
+        },
+        {
+          "src": "ending.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle"
+        },
+        {
+          "src": "dataso_assets_all.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle"
+        },
+        {
+          "src": "font.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle"
+        },
+        {
+          "src": "imagen_del_prologo/prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle"
+        },
+        {
+          "src": "mainscene.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle"
+        },
+        {
+          "src": "imagen_del_ending/chapending_endingcredit.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle"
+        },
+        {
+          "src": "imagen_del_capitulo_2/chap2_s02_e.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle"
+        }
+      ],
+      "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición."
+    },
+    {
+      "label": "05/06/2025 · LATAM fan",
+      "version": "2025.6.5",
+      "base": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS",
+      "gameVersion": "<1.3.48",
+      "files": [
+        {
+          "src": "chap1.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle"
+        },
+        {
+          "src": "chap2.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle"
+        },
+        {
+          "src": "chap3.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle"
+        },
+        {
+          "src": "chap4.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle"
+        },
+        {
+          "src": "chap5.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle"
+        },
+        {
+          "src": "prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle"
+        },
+        {
+          "src": "ending.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle"
+        },
+        {
+          "src": "dataso_assets_all.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle"
+        },
+        {
+          "src": "font.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle"
+        },
+        {
+          "src": "imagen_del_prologo/prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle"
+        },
+        {
+          "src": "mainscene.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle"
+        },
+        {
+          "src": "imagen_del_ending/chapending_endingcredit.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle"
+        },
+        {
+          "src": "imagen_del_capitulo_2/chap2_s02_e.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle"
+        }
+      ],
+      "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición."
+    },
+    {
+      "label": "03/05/2025 · LATAM fan",
+      "version": "2025.5.3",
+      "base": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS",
+      "gameVersion": "<1.3.48",
+      "files": [
+        {
+          "src": "chap1.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle"
+        },
+        {
+          "src": "chap2.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle"
+        },
+        {
+          "src": "chap3.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle"
+        },
+        {
+          "src": "chap4.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle"
+        },
+        {
+          "src": "chap5.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle"
+        },
+        {
+          "src": "prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle"
+        },
+        {
+          "src": "ending.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle"
+        },
+        {
+          "src": "dataso_assets_all.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle"
+        },
+        {
+          "src": "font.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle"
+        },
+        {
+          "src": "imagen_del_prologo/prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle"
+        },
+        {
+          "src": "mainscene.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle"
+        },
+        {
+          "src": "imagen_del_ending/chapending_endingcredit.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle"
+        },
+        {
+          "src": "imagen_del_capitulo_2/chap2_s02_e.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle"
+        }
+      ],
+      "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición."
+    },
+    {
+      "label": "01/05/2025 · LATAM fan",
+      "version": "2025.5.1",
+      "base": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS",
+      "gameVersion": "<1.3.48",
+      "files": [
+        {
+          "src": "chap1.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle"
+        },
+        {
+          "src": "chap2.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle"
+        },
+        {
+          "src": "chap3.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle"
+        },
+        {
+          "src": "chap4.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle"
+        },
+        {
+          "src": "chap5.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle"
+        },
+        {
+          "src": "prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle"
+        },
+        {
+          "src": "ending.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle"
+        },
+        {
+          "src": "dataso_assets_all.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle"
+        },
+        {
+          "src": "font.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle"
+        },
+        {
+          "src": "imagen_del_prologo/prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle"
+        },
+        {
+          "src": "mainscene.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle"
+        },
+        {
+          "src": "imagen_del_ending/chapending_endingcredit.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle"
+        },
+        {
+          "src": "imagen_del_capitulo_2/chap2_s02_e.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle"
+        }
+      ],
+      "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición."
+    },
+    {
+      "label": "26/04/2025 · LATAM fan",
+      "version": "2025.4.26",
+      "base": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS",
+      "gameVersion": "<1.3.48",
+      "files": [
+        {
+          "src": "chap1.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle"
+        },
+        {
+          "src": "chap2.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle"
+        },
+        {
+          "src": "chap3.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle"
+        },
+        {
+          "src": "chap4.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle"
+        },
+        {
+          "src": "chap5.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle"
+        },
+        {
+          "src": "prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle"
+        },
+        {
+          "src": "ending.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle"
+        },
+        {
+          "src": "dataso_assets_all.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle"
+        },
+        {
+          "src": "font.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle"
+        },
+        {
+          "src": "imagen_del_prologo/prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle"
+        },
+        {
+          "src": "mainscene.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle"
+        },
+        {
+          "src": "imagen_del_ending/chapending_endingcredit.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle"
+        },
+        {
+          "src": "imagen_del_capitulo_2/chap2_s02_e.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle"
+        }
+      ],
+      "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición."
+    }
+  ],
+  "installInstructions": "Elegí una edición en Versión de la traducción y pulsá Instalar. Cerrá SANABI antes de aplicar cambios. En Linux elegí la carpeta de SANABI de Steam/Proton, la misma que contiene SNB.exe y SNB_Data. No necesita Python, Wine adicional ni BepInEx. Para cambiar de edición, elegí otra y reinstalá; para restaurar el original, desactivá el mod.",
+  "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición.",
+  "verification": "package"
+}

@@ -1,0 +1,4197 @@
+[
+  {
+    "target": "Spr_SPC_MeleeAttack2nd (1)",
+    "source": "Spr_SNB_ChargeAttack (1)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack2nd (2)",
+    "source": "Spr_SNB_ChargeAttack (3)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack2nd (3)",
+    "source": "Spr_SNB_ChargeAttack (5)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack2nd (4)",
+    "source": "Spr_SNB_ChargeAttack (6)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack2nd (5)",
+    "source": "Spr_SNB_ChargeAttack (8)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack2nd (6)",
+    "source": "Spr_SNB_ChargeAttack (10)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (3)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (5)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (6)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (7)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (8)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (9)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (10)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (11)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (12)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (13)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (14)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot3rd (15)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (1)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (2)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (3)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (4)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (5)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (6)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (7)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (8)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (9)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (10)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (11)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (12)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (13)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (14)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot1st (15)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (3)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (5)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (6)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (7)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (8)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (9)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (10)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (11)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (12)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (13)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (14)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot1st (15)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (1)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (2)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (3)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (4)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (5)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (6)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (7)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (8)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (9)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (10)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (11)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (12)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (13)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (14)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Shoot3rd (15)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack3rd (1)",
+    "source": "Spr_SNB_ChargeAttack (1)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack3rd (2)",
+    "source": "Spr_SNB_ChargeAttack (3)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack3rd (3)",
+    "source": "Spr_SNB_ChargeAttack (5)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack3rd (4)",
+    "source": "Spr_SNB_ChargeAttack (6)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack3rd (5)",
+    "source": "Spr_SNB_ChargeAttack (8)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack3rd (6)",
+    "source": "Spr_SNB_ChargeAttack (10)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_AirJump (1)",
+    "source": "Spr_SNB_Jumping (lp) (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (2)",
+    "source": "Spr_SNB_Jumping (lp) (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (3)",
+    "source": "Spr_SNB_Jumping (lp) (2)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (4)",
+    "source": "Spr_SNB_Jumping (lp) (2)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (5)",
+    "source": "Spr_SNB_Jumping (lp) (2)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (6)",
+    "source": "Spr_SNB_Jumping (lp) (2)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (7)",
+    "source": "Spr_SNB_Jumping (lp) (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (8)",
+    "source": "Spr_SNB_Jumping (lp) (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (9)",
+    "source": "Spr_SNB_Jumping (lp) (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (10)",
+    "source": "Spr_SNB_Jumping (lp) (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (11)",
+    "source": "Spr_SNB_Jumping (lp) (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (12)",
+    "source": "Spr_SNB_Jumping (lp) (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (13)",
+    "source": "Spr_SNB_Jumping (lp) (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (14)",
+    "source": "Spr_SNB_Jumping (lp) (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (15)",
+    "source": "Spr_SNB_Jumping (lp) (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (16)",
+    "source": "Spr_SNB_Jumping (lp) (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (17)",
+    "source": "Spr_SNB_Jumping (lp) (6)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_AirJump (18)",
+    "source": "Spr_SNB_Jumping (lp) (6)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (1)",
+    "source": "Spr_SNB_IdleRand2 (1)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (2)",
+    "source": "Spr_SNB_IdleRand2 (1)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (3)",
+    "source": "Spr_SNB_IdleRand2 (2)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (4)",
+    "source": "Spr_SNB_IdleRand2 (2)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (5)",
+    "source": "Spr_SNB_IdleRand2 (2)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (6)",
+    "source": "Spr_SNB_IdleRand2 (2)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (7)",
+    "source": "Spr_SNB_IdleRand2 (3)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (8)",
+    "source": "Spr_SNB_IdleRand2 (3)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (9)",
+    "source": "Spr_SNB_IdleRand2 (3)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (10)",
+    "source": "Spr_SNB_IdleRand2 (3)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (11)",
+    "source": "Spr_SNB_IdleRand2 (4)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (12)",
+    "source": "Spr_SNB_IdleRand2 (4)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (13)",
+    "source": "Spr_SNB_IdleRand2 (4)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (14)",
+    "source": "Spr_SNB_IdleRand2 (5)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (15)",
+    "source": "Spr_SNB_IdleRand2 (5)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (16)",
+    "source": "Spr_SNB_IdleRand2 (5)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (17)",
+    "source": "Spr_SNB_IdleRand2 (5)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (18)",
+    "source": "Spr_SNB_IdleRand2 (6)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (19)",
+    "source": "Spr_SNB_IdleRand2 (6)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (20)",
+    "source": "Spr_SNB_IdleRand2 (6)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (21)",
+    "source": "Spr_SNB_IdleRand2 (7)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (22)",
+    "source": "Spr_SNB_IdleRand2 (7)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (23)",
+    "source": "Spr_SNB_IdleRand2 (7)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (24)",
+    "source": "Spr_SNB_IdleRand2 (7)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (25)",
+    "source": "Spr_SNB_IdleRand2 (8)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (26)",
+    "source": "Spr_SNB_IdleRand2 (8)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (27)",
+    "source": "Spr_SNB_IdleRand2 (8)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (28)",
+    "source": "Spr_SNB_IdleRand2 (8)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (29)",
+    "source": "Spr_SNB_IdleRand2 (9)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (30)",
+    "source": "Spr_SNB_IdleRand2 (9)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (31)",
+    "source": "Spr_SNB_IdleRand2 (9)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (32)",
+    "source": "Spr_SNB_IdleRand2 (10)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (33)",
+    "source": "Spr_SNB_IdleRand2 (10)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (34)",
+    "source": "Spr_SNB_IdleRand2 (10)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (35)",
+    "source": "Spr_SNB_IdleRand2 (10)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (36)",
+    "source": "Spr_SNB_IdleRand2 (11)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (37)",
+    "source": "Spr_SNB_IdleRand2 (11)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (38)",
+    "source": "Spr_SNB_IdleRand2 (11)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (39)",
+    "source": "Spr_SNB_IdleRand2 (11)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (40)",
+    "source": "Spr_SNB_IdleRand2 (12)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (41)",
+    "source": "Spr_SNB_IdleRand2 (12)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (42)",
+    "source": "Spr_SNB_IdleRand2 (12)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (43)",
+    "source": "Spr_SNB_IdleRand2 (13)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (44)",
+    "source": "Spr_SNB_IdleRand2 (13)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (45)",
+    "source": "Spr_SNB_IdleRand2 (13)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (46)",
+    "source": "Spr_SNB_IdleRand2 (13)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (47)",
+    "source": "Spr_SNB_IdleRand2 (14)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (48)",
+    "source": "Spr_SNB_IdleRand2 (14)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (49)",
+    "source": "Spr_SNB_IdleRand2 (14)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (50)",
+    "source": "Spr_SNB_IdleRand2 (14)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (51)",
+    "source": "Spr_SNB_IdleRand2 (15)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (52)",
+    "source": "Spr_SNB_IdleRand2 (15)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (53)",
+    "source": "Spr_SNB_IdleRand2 (15)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (54)",
+    "source": "Spr_SNB_IdleRand2 (16)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (55)",
+    "source": "Spr_SNB_IdleRand2 (16)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (56)",
+    "source": "Spr_SNB_IdleRand2 (16)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (57)",
+    "source": "Spr_SNB_IdleRand2 (16)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (58)",
+    "source": "Spr_SNB_IdleRand2 (17)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (59)",
+    "source": "Spr_SNB_IdleRand2 (17)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (60)",
+    "source": "Spr_SNB_IdleRand2 (17)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (61)",
+    "source": "Spr_SNB_IdleRand2 (18)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (62)",
+    "source": "Spr_SNB_IdleRand2 (18)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (63)",
+    "source": "Spr_SNB_IdleRand2 (18)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (64)",
+    "source": "Spr_SNB_IdleRand2 (18)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (65)",
+    "source": "Spr_SNB_IdleRand2 (19)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (66)",
+    "source": "Spr_SNB_IdleRand2 (19)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (67)",
+    "source": "Spr_SNB_IdleRand2 (19)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (68)",
+    "source": "Spr_SNB_IdleRand2 (19)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (69)",
+    "source": "Spr_SNB_IdleRand2 (20)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle2Loop (70)",
+    "source": "Spr_SNB_IdleRand2 (20)",
+    "group": "IdleRand2"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (3)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (5)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (6)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (7)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (8)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (9)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (10)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (11)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (12)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (13)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (14)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot3rd (15)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (3)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (5)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (6)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (7)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (8)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (9)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (10)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (11)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (12)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (13)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (14)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Shoot1st (15)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (3)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (5)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (6)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (7)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (8)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (9)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (10)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (11)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (12)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (13)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (14)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot3rd (15)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_Jumping (1)",
+    "source": "Spr_SNB_Jumping (lp) (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (2)",
+    "source": "Spr_SNB_Jumping (lp) (1)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (3)",
+    "source": "Spr_SNB_Jumping (lp) (2)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (4)",
+    "source": "Spr_SNB_Jumping (lp) (2)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (5)",
+    "source": "Spr_SNB_Jumping (lp) (2)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (6)",
+    "source": "Spr_SNB_Jumping (lp) (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (7)",
+    "source": "Spr_SNB_Jumping (lp) (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (8)",
+    "source": "Spr_SNB_Jumping (lp) (3)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (9)",
+    "source": "Spr_SNB_Jumping (lp) (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (10)",
+    "source": "Spr_SNB_Jumping (lp) (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (11)",
+    "source": "Spr_SNB_Jumping (lp) (4)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (12)",
+    "source": "Spr_SNB_Jumping (lp) (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (13)",
+    "source": "Spr_SNB_Jumping (lp) (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (14)",
+    "source": "Spr_SNB_Jumping (lp) (5)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (15)",
+    "source": "Spr_SNB_Jumping (lp) (6)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_Jumping (16)",
+    "source": "Spr_SNB_Jumping (lp) (6)",
+    "group": "Jumping"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (1)",
+    "source": "Spr_SNB_IdleRand1 (1)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (2)",
+    "source": "Spr_SNB_IdleRand1 (1)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (3)",
+    "source": "Spr_SNB_IdleRand1 (2)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (4)",
+    "source": "Spr_SNB_IdleRand1 (2)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (5)",
+    "source": "Spr_SNB_IdleRand1 (2)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (6)",
+    "source": "Spr_SNB_IdleRand1 (3)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (7)",
+    "source": "Spr_SNB_IdleRand1 (3)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (8)",
+    "source": "Spr_SNB_IdleRand1 (3)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (9)",
+    "source": "Spr_SNB_IdleRand1 (4)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (10)",
+    "source": "Spr_SNB_IdleRand1 (4)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (11)",
+    "source": "Spr_SNB_IdleRand1 (4)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (12)",
+    "source": "Spr_SNB_IdleRand1 (5)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (13)",
+    "source": "Spr_SNB_IdleRand1 (5)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (14)",
+    "source": "Spr_SNB_IdleRand1 (5)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (15)",
+    "source": "Spr_SNB_IdleRand1 (6)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (16)",
+    "source": "Spr_SNB_IdleRand1 (6)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (17)",
+    "source": "Spr_SNB_IdleRand1 (6)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (18)",
+    "source": "Spr_SNB_IdleRand1 (7)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (19)",
+    "source": "Spr_SNB_IdleRand1 (7)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (20)",
+    "source": "Spr_SNB_IdleRand1 (7)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (21)",
+    "source": "Spr_SNB_IdleRand1 (8)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (22)",
+    "source": "Spr_SNB_IdleRand1 (8)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (23)",
+    "source": "Spr_SNB_IdleRand1 (8)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (24)",
+    "source": "Spr_SNB_IdleRand1 (9)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (25)",
+    "source": "Spr_SNB_IdleRand1 (9)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (26)",
+    "source": "Spr_SNB_IdleRand1 (9)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (27)",
+    "source": "Spr_SNB_IdleRand1 (10)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (28)",
+    "source": "Spr_SNB_IdleRand1 (10)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (29)",
+    "source": "Spr_SNB_IdleRand1 (10)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (30)",
+    "source": "Spr_SNB_IdleRand1 (11)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (31)",
+    "source": "Spr_SNB_IdleRand1 (11)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (32)",
+    "source": "Spr_SNB_IdleRand1 (11)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (33)",
+    "source": "Spr_SNB_IdleRand1 (11)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (34)",
+    "source": "Spr_SNB_IdleRand1 (12)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (35)",
+    "source": "Spr_SNB_IdleRand1 (12)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (36)",
+    "source": "Spr_SNB_IdleRand1 (12)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (37)",
+    "source": "Spr_SNB_IdleRand1 (13)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (38)",
+    "source": "Spr_SNB_IdleRand1 (13)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (39)",
+    "source": "Spr_SNB_IdleRand1 (13)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (40)",
+    "source": "Spr_SNB_IdleRand1 (14)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (41)",
+    "source": "Spr_SNB_IdleRand1 (14)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (42)",
+    "source": "Spr_SNB_IdleRand1 (14)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (43)",
+    "source": "Spr_SNB_IdleRand1 (15)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (44)",
+    "source": "Spr_SNB_IdleRand1 (15)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (45)",
+    "source": "Spr_SNB_IdleRand1 (15)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (46)",
+    "source": "Spr_SNB_IdleRand1 (16)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (47)",
+    "source": "Spr_SNB_IdleRand1 (16)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (48)",
+    "source": "Spr_SNB_IdleRand1 (16)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (49)",
+    "source": "Spr_SNB_IdleRand1 (17)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (50)",
+    "source": "Spr_SNB_IdleRand1 (17)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (51)",
+    "source": "Spr_SNB_IdleRand1 (17)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (52)",
+    "source": "Spr_SNB_IdleRand1 (18)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (53)",
+    "source": "Spr_SNB_IdleRand1 (18)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (54)",
+    "source": "Spr_SNB_IdleRand1 (18)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (55)",
+    "source": "Spr_SNB_IdleRand1 (19)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (56)",
+    "source": "Spr_SNB_IdleRand1 (19)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (57)",
+    "source": "Spr_SNB_IdleRand1 (19)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (58)",
+    "source": "Spr_SNB_IdleRand1 (20)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_RandomIdle1Loop (59)",
+    "source": "Spr_SNB_IdleRand1 (20)",
+    "group": "IdleRand1"
+  },
+  {
+    "target": "Spr_SPC_WallClimbDownLoop (1)",
+    "source": "Spr_SNB_WallClimbDown (lp) (1)",
+    "group": "WallClimbDown"
+  },
+  {
+    "target": "Spr_SPC_WallClimbDownLoop (2)",
+    "source": "Spr_SNB_WallClimbDown (lp) (2)",
+    "group": "WallClimbDown"
+  },
+  {
+    "target": "Spr_SPC_WallClimbDownLoop (3)",
+    "source": "Spr_SNB_WallClimbDown (lp) (3)",
+    "group": "WallClimbDown"
+  },
+  {
+    "target": "Spr_SPC_WallClimbDownLoop (4)",
+    "source": "Spr_SNB_WallClimbDown (lp) (5)",
+    "group": "WallClimbDown"
+  },
+  {
+    "target": "Spr_SPC_WallClimbDownLoop (5)",
+    "source": "Spr_SNB_WallClimbDown (lp) (6)",
+    "group": "WallClimbDown"
+  },
+  {
+    "target": "Spr_SPC_WallClimbDownLoop (6)",
+    "source": "Spr_SNB_WallClimbDown (lp) (7)",
+    "group": "WallClimbDown"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Shoot1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Shoot1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Shoot1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Shoot1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Shoot1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Shoot1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Shoot1st (7)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Shoot1st (8)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (3)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (5)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (6)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (7)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (8)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (9)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackCancel (10)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttackReady (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttackReady (2)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttackReady (3)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (3)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (5)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (6)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (7)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (8)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (9)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (10)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (11)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (12)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (13)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (14)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot3rd (15)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Charge1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Charge1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Charge1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Charge1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Charge1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Charge1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (3)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (5)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (6)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (7)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (8)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (9)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (10)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (11)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (12)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (13)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (14)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Shoot3rd (15)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Shoot1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Shoot1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Shoot1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Shoot1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Shoot1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Shoot1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Shoot1st (7)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Shoot1st (8)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (3)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (5)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (6)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (7)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (8)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (9)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (10)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (11)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (12)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (13)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (14)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot1st (15)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge3rd (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge3rd (2)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge3rd (3)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge3rd (4)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Shoot1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Shoot1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Shoot1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Shoot1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Shoot1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Shoot1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Shoot1st (7)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Shoot1st (8)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (3)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (5)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (6)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (7)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (8)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (9)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (10)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (11)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (12)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (13)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (14)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (15)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (16)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot3rd (17)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (1)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (2)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (3)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (4)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (5)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (6)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (7)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (8)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (9)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (10)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (11)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (12)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (13)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (14)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot3rd (15)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (3)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (5)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (6)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (7)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (8)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (9)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (10)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (11)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (12)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (13)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (14)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Shoot3rd (15)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_AirJump2Fall (1)",
+    "source": "Spr_SNB_Falling (lp) (1)",
+    "group": "Falling"
+  },
+  {
+    "target": "Spr_SPC_AirJump2Fall (2)",
+    "source": "Spr_SNB_Falling (lp) (2)",
+    "group": "Falling"
+  },
+  {
+    "target": "Spr_SPC_AirJump2Fall (3)",
+    "source": "Spr_SNB_Falling (lp) (3)",
+    "group": "Falling"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackReady (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackReady (2)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackReady (3)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackReady (4)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_Damaged (1)",
+    "source": "Spr_SNB_Damaged (1)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SPC_Damaged (2)",
+    "source": "Spr_SNB_Damaged (2)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SPC_Damaged (3)",
+    "source": "Spr_SNB_Damaged (3)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SPC_Damaged (4)",
+    "source": "Spr_SNB_Damaged (4)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SPC_Damaged (5)",
+    "source": "Spr_SNB_Damaged (5)",
+    "group": "Damaged"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Charge1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Charge1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Charge1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Charge1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Charge1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus20Charge1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Charge1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Charge1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Charge1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Charge1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Charge1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus40Charge1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_WallSlideLoop (1)",
+    "source": "Spr_SNB_WallSliding (lp) (1)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideLoop (2)",
+    "source": "Spr_SNB_WallSliding (lp) (3)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideLoop (3)",
+    "source": "Spr_SNB_WallSliding (lp) (5)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideLoop (4)",
+    "source": "Spr_SNB_WallSliding (lp) (7)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideLoop (5)",
+    "source": "Spr_SNB_WallSliding (lp) (9)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideLoop (6)",
+    "source": "Spr_SNB_WallSliding (lp) (11)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (1)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (2)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (3)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (4)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (5)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (6)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (7)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (8)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (9)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (10)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (11)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (12)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (13)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (14)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Shoot1nd (15)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge1st (1)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge1st (2)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge1st (3)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge1st (4)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge1st (5)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge1st (6)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge1st (7)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge1st (8)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttackReady1st (1)",
+    "source": "Spr_SNB_ChargeAttack (1)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttackReady1st (2)",
+    "source": "Spr_SNB_ChargeAttack (5)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttackReady1st (3)",
+    "source": "Spr_SNB_ChargeAttack (10)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (3)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (5)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (6)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (7)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (8)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (9)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (10)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (11)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (12)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (13)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (14)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Shoot1st (15)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (3)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (5)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (6)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (7)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (8)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (9)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (10)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (11)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (12)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (13)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (14)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Shoot1st (15)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Shoot1st (1)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Shoot1st (2)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Shoot1st (3)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Shoot1st (4)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Shoot1st (5)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Shoot1st (6)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Shoot1st (7)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Shoot1st (8)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge1st (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge1st (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge1st (3)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge1st (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge1st (5)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge1st (6)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge1st (7)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge1st (8)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_FallLoop (1)",
+    "source": "Spr_SNB_Falling (lp) (1)",
+    "group": "Falling"
+  },
+  {
+    "target": "Spr_SPC_FallLoop (2)",
+    "source": "Spr_SNB_Falling (lp) (2)",
+    "group": "Falling"
+  },
+  {
+    "target": "Spr_SPC_FallLoop (3)",
+    "source": "Spr_SNB_Falling (lp) (2)",
+    "group": "Falling"
+  },
+  {
+    "target": "Spr_SPC_FallLoop (4)",
+    "source": "Spr_SNB_Falling (lp) (3)",
+    "group": "Falling"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge3rd (1)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge3rd (2)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge3rd (3)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge3rd (4)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RunStop (1)",
+    "source": "Spr_SNB_RunStop (1)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SPC_RunStop (2)",
+    "source": "Spr_SNB_RunStop (2)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SPC_RunStop (3)",
+    "source": "Spr_SNB_RunStop (3)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SPC_RunStop (4)",
+    "source": "Spr_SNB_RunStop (5)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SPC_RunStop (5)",
+    "source": "Spr_SNB_RunStop (6)",
+    "group": "RunStop"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge1st (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge1st (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge1st (3)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge1st (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge1st (5)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge1st (6)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge1st (7)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge1st (8)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge3rd (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge3rd (2)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge3rd (3)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack40Charge3rd (4)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge1st (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge1st (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge1st (3)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge1st (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge1st (5)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge1st (6)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge1st (7)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge1st (8)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack1st (1)",
+    "source": "Spr_SNB_ChargeAttack (1)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack1st (2)",
+    "source": "Spr_SNB_ChargeAttack (3)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack1st (3)",
+    "source": "Spr_SNB_ChargeAttack (5)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack1st (4)",
+    "source": "Spr_SNB_ChargeAttack (6)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack1st (5)",
+    "source": "Spr_SNB_ChargeAttack (8)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttack1st (6)",
+    "source": "Spr_SNB_ChargeAttack (10)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_WallSlideStart (1)",
+    "source": "Spr_SNB_WallSliding (lp) (1)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideStart (2)",
+    "source": "Spr_SNB_WallSliding (lp) (3)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideStart (3)",
+    "source": "Spr_SNB_WallSliding (lp) (4)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideStart (4)",
+    "source": "Spr_SNB_WallSliding (lp) (6)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideStart (5)",
+    "source": "Spr_SNB_WallSliding (lp) (8)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideStart (6)",
+    "source": "Spr_SNB_WallSliding (lp) (9)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_WallSlideStart (7)",
+    "source": "Spr_SNB_WallSliding (lp) (11)",
+    "group": "WallSliding"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (3)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (5)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (6)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (7)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (8)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (9)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (10)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (11)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (12)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (13)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (14)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Shoot1st (15)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_HpRestoreReady (1)",
+    "source": "Spr_SNB_Idle (lp) (1)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestoreReady (2)",
+    "source": "Spr_SNB_Idle (lp) (2)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestoreReady (3)",
+    "source": "Spr_SNB_Idle (lp) (3)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestoreReady (4)",
+    "source": "Spr_SNB_Idle (lp) (4)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestoreReady (5)",
+    "source": "Spr_SNB_Idle (lp) (5)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestoreReady (6)",
+    "source": "Spr_SNB_Idle (lp) (5)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestoreReady (7)",
+    "source": "Spr_SNB_Idle (lp) (6)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestoreReady (8)",
+    "source": "Spr_SNB_Idle (lp) (7)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestoreReady (9)",
+    "source": "Spr_SNB_Idle (lp) (8)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Charge1st (1)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Charge1st (2)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Charge1st (3)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Charge1st (4)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Charge1st (5)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Charge1st (6)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_HpRestore (1)",
+    "source": "Spr_SNB_Idle (lp) (1)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestore (2)",
+    "source": "Spr_SNB_Idle (lp) (2)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestore (3)",
+    "source": "Spr_SNB_Idle (lp) (3)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestore (4)",
+    "source": "Spr_SNB_Idle (lp) (4)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestore (5)",
+    "source": "Spr_SNB_Idle (lp) (5)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestore (6)",
+    "source": "Spr_SNB_Idle (lp) (6)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestore (7)",
+    "source": "Spr_SNB_Idle (lp) (7)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_HpRestore (8)",
+    "source": "Spr_SNB_Idle (lp) (8)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (3)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (5)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (6)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (7)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (8)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (9)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (10)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (11)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (12)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (13)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (14)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Shoot1st (15)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Shoot1st (1)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Shoot1st (2)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Shoot1st (3)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Shoot1st (4)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Shoot1st (5)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Shoot1st (6)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Shoot1st (7)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Shoot1st (8)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge1st (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge1st (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge1st (3)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge1st (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge1st (5)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge1st (6)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge1st (7)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge1st (8)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge1st (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge1st (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge1st (3)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge1st (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge1st (5)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge1st (6)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge1st (7)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge1st (8)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Shoot1st (1)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Shoot1st (2)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Shoot1st (3)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Shoot1st (4)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Shoot1st (5)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Shoot1st (6)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Shoot1st (7)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus80Shoot1st (8)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge1st (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge1st (2)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge1st (3)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge1st (4)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge1st (5)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge1st (6)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge1st (7)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus80Charge1st (8)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Shoot1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Shoot1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Shoot1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Shoot1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Shoot1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Shoot1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Shoot1st (7)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack20Shoot1st (8)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Charge1st (1)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Charge1st (2)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Charge1st (3)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Charge1st (4)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Charge1st (5)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack80Charge1st (6)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (1)",
+    "source": "Spr_SNB_Running (lp) (1)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (2)",
+    "source": "Spr_SNB_Running (lp) (3)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (3)",
+    "source": "Spr_SNB_Running (lp) (5)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (4)",
+    "source": "Spr_SNB_Running (lp) (7)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (5)",
+    "source": "Spr_SNB_Running (lp) (9)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (6)",
+    "source": "Spr_SNB_Running (lp) (12)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (7)",
+    "source": "Spr_SNB_Running (lp) (14)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (8)",
+    "source": "Spr_SNB_Running (lp) (16)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (9)",
+    "source": "Spr_SNB_Running (lp) (18)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_RunLoop (10)",
+    "source": "Spr_SNB_Running (lp) (20)",
+    "group": "Running"
+  },
+  {
+    "target": "Spr_SPC_Idle (1)",
+    "source": "Spr_SNB_Idle (lp) (1)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_IdleLoop (1)",
+    "source": "Spr_SNB_Idle (lp) (1)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_IdleLoop (2)",
+    "source": "Spr_SNB_Idle (lp) (2)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_IdleLoop (3)",
+    "source": "Spr_SNB_Idle (lp) (3)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_IdleLoop (4)",
+    "source": "Spr_SNB_Idle (lp) (4)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_IdleLoop (5)",
+    "source": "Spr_SNB_Idle (lp) (5)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_IdleLoop (6)",
+    "source": "Spr_SNB_Idle (lp) (6)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_IdleLoop (7)",
+    "source": "Spr_SNB_Idle (lp) (7)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_IdleLoop (8)",
+    "source": "Spr_SNB_Idle (lp) (8)",
+    "group": "Idle"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge1st (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge1st (2)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge1st (3)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge1st (4)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge1st (5)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge1st (6)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge1st (7)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge1st (8)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Charge1st (1)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Charge1st (2)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Charge1st (3)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Charge1st (4)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Charge1st (5)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack60Charge1st (6)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_FallStart (1)",
+    "source": "Spr_SNB_FallStart (1)",
+    "group": "FallStart"
+  },
+  {
+    "target": "Spr_SPC_FallStart (2)",
+    "source": "Spr_SNB_FallStart (1)",
+    "group": "FallStart"
+  },
+  {
+    "target": "Spr_SPC_FallStart (3)",
+    "source": "Spr_SNB_FallStart (2)",
+    "group": "FallStart"
+  },
+  {
+    "target": "Spr_SPC_FallStart (4)",
+    "source": "Spr_SNB_FallStart (3)",
+    "group": "FallStart"
+  },
+  {
+    "target": "Spr_SPC_FallStart (5)",
+    "source": "Spr_SNB_FallStart (3)",
+    "group": "FallStart"
+  },
+  {
+    "target": "Spr_SPC_Land (1)",
+    "source": "Spr_SNB_Landing (1)",
+    "group": "Landing"
+  },
+  {
+    "target": "Spr_SPC_Land (2)",
+    "source": "Spr_SNB_Landing (1)",
+    "group": "Landing"
+  },
+  {
+    "target": "Spr_SPC_Land (3)",
+    "source": "Spr_SNB_Landing (2)",
+    "group": "Landing"
+  },
+  {
+    "target": "Spr_SPC_Land (4)",
+    "source": "Spr_SNB_Landing (2)",
+    "group": "Landing"
+  },
+  {
+    "target": "Spr_SPC_Land (5)",
+    "source": "Spr_SNB_Landing (3)",
+    "group": "Landing"
+  },
+  {
+    "target": "Spr_SPC_Land (6)",
+    "source": "Spr_SNB_Landing (3)",
+    "group": "Landing"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Charge1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Charge1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Charge1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Charge1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Charge1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack40Charge1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (1)",
+    "source": "Spr_SNB_WallClimbUp (lp) (1)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (2)",
+    "source": "Spr_SNB_WallClimbUp (lp) (2)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (3)",
+    "source": "Spr_SNB_WallClimbUp (lp) (3)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (4)",
+    "source": "Spr_SNB_WallClimbUp (lp) (4)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (5)",
+    "source": "Spr_SNB_WallClimbUp (lp) (5)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (6)",
+    "source": "Spr_SNB_WallClimbUp (lp) (6)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (7)",
+    "source": "Spr_SNB_WallClimbUp (lp) (7)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (8)",
+    "source": "Spr_SNB_WallClimbUp (lp) (8)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (9)",
+    "source": "Spr_SNB_WallClimbUp (lp) (9)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_WallClimpUpLoop (10)",
+    "source": "Spr_SNB_WallClimbUp (lp) (10)",
+    "group": "WallClimbUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge3rd (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge3rd (2)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge3rd (3)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus40Charge3rd (4)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge3rd (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge3rd (2)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge3rd (3)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack20Charge3rd (4)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge3rd (1)",
+    "source": "Spr_SNB_ShotGNDFront (1)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge3rd (2)",
+    "source": "Spr_SNB_ShotGNDFront (2)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge3rd (3)",
+    "source": "Spr_SNB_ShotGNDFront (3)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack00Charge3rd (4)",
+    "source": "Spr_SNB_ShotGNDFront (4)",
+    "group": "ShotGNDFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackReady (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackReady (2)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackReady (3)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Shoot1st (1)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Shoot1st (2)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Shoot1st (3)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Shoot1st (4)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Shoot1st (5)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Shoot1st (6)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Shoot1st (7)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Shoot1st (8)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Shoot1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Shoot1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Shoot1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Shoot1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Shoot1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Shoot1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Shoot1st (7)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Shoot1st (8)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge3rd (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge3rd (2)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge3rd (3)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus20Charge3rd (4)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge1st (1)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge1st (2)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge1st (3)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge1st (4)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge1st (5)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge1st (6)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge1st (7)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack60Charge1st (8)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_NormalBurst (1)",
+    "source": "Spr_SNB_ChargeAttack (1)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_NormalBurst (2)",
+    "source": "Spr_SNB_ChargeAttack (5)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_NormalBurst (3)",
+    "source": "Spr_SNB_ChargeAttack (10)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_RunStart (1)",
+    "source": "Spr_SNB_RunStart (1)",
+    "group": "RunStart"
+  },
+  {
+    "target": "Spr_SPC_RunStart (2)",
+    "source": "Spr_SNB_RunStart (1)",
+    "group": "RunStart"
+  },
+  {
+    "target": "Spr_SPC_RunStart (3)",
+    "source": "Spr_SNB_RunStart (1)",
+    "group": "RunStart"
+  },
+  {
+    "target": "Spr_SPC_RunStart (4)",
+    "source": "Spr_SNB_RunStart (2)",
+    "group": "RunStart"
+  },
+  {
+    "target": "Spr_SPC_RunStart (5)",
+    "source": "Spr_SNB_RunStart (2)",
+    "group": "RunStart"
+  },
+  {
+    "target": "Spr_SPC_RunStart (6)",
+    "source": "Spr_SNB_RunStart (2)",
+    "group": "RunStart"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (1)",
+    "source": "Spr_SNB_Land2Run (1)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (2)",
+    "source": "Spr_SNB_Land2Run (2)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (3)",
+    "source": "Spr_SNB_Land2Run (3)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (4)",
+    "source": "Spr_SNB_Land2Run (4)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (5)",
+    "source": "Spr_SNB_Land2Run (5)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (6)",
+    "source": "Spr_SNB_Land2Run (6)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (7)",
+    "source": "Spr_SNB_Land2Run (7)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (8)",
+    "source": "Spr_SNB_Land2Run (8)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (9)",
+    "source": "Spr_SNB_Land2Run (9)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (10)",
+    "source": "Spr_SNB_Land2Run (10)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (11)",
+    "source": "Spr_SNB_Land2Run (11)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_Land2Run (12)",
+    "source": "Spr_SNB_Land2Run (12)",
+    "group": "Land2Run"
+  },
+  {
+    "target": "Spr_SPC_AirAttack (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttack (2)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttack (3)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Charge1st (1)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Charge1st (2)",
+    "source": "Spr_SNB_ShotAIRUp (1)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Charge1st (3)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Charge1st (4)",
+    "source": "Spr_SNB_ShotAIRUp (2)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Charge1st (5)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttackMinus60Charge1st (6)",
+    "source": "Spr_SNB_ShotAIRUp (3)",
+    "group": "ShotAIRUp"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttackReady3rd (1)",
+    "source": "Spr_SNB_ChargeAttack (1)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttackReady3rd (2)",
+    "source": "Spr_SNB_ChargeAttack (5)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttackReady3rd (3)",
+    "source": "Spr_SNB_ChargeAttack (10)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttackReady2nd (1)",
+    "source": "Spr_SNB_ChargeAttack (1)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttackReady2nd (2)",
+    "source": "Spr_SNB_ChargeAttack (5)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_MeleeAttackReady2nd (3)",
+    "source": "Spr_SNB_ChargeAttack (10)",
+    "group": "ChargeAttack"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge3rd (1)",
+    "source": "Spr_SNB_ShotGNDDown (1)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge3rd (2)",
+    "source": "Spr_SNB_ShotGNDDown (2)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge3rd (3)",
+    "source": "Spr_SNB_ShotGNDDown (3)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttackMinus60Charge3rd (4)",
+    "source": "Spr_SNB_ShotGNDDown (4)",
+    "group": "ShotGNDDown"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge3rd (1)",
+    "source": "Spr_SNB_ShotGNDUp (1)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge3rd (2)",
+    "source": "Spr_SNB_ShotGNDUp (2)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge3rd (3)",
+    "source": "Spr_SNB_ShotGNDUp (3)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_RangeAttack80Charge3rd (4)",
+    "source": "Spr_SNB_ShotGNDUp (4)",
+    "group": "ShotGNDUp"
+  },
+  {
+    "target": "Spr_SPC_AirAttackAlt (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttackAlt (2)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttackAlt (3)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Charge1st (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Charge1st (2)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Charge1st (3)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Charge1st (4)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Charge1st (5)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirRangeAttack00Charge1st (6)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttackReadyAlt (1)",
+    "source": "Spr_SNB_ShotAIRFront (1)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttackReadyAlt (2)",
+    "source": "Spr_SNB_ShotAIRFront (2)",
+    "group": "ShotAIRFront"
+  },
+  {
+    "target": "Spr_SPC_AirAttackReadyAlt (3)",
+    "source": "Spr_SNB_ShotAIRFront (3)",
+    "group": "ShotAIRFront"
+  }
+]

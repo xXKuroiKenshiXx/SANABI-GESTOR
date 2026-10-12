@@ -1,0 +1,653 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:SanabiGestor.ViewModels"
+        xmlns:core="using:SanabiGestor.Core"
+        xmlns:views="using:SanabiGestor.Views"
+        xmlns:loc="using:SanabiGestor.Core"
+        x:Class="SanabiGestor.Views.MainWindow"
+        x:DataType="vm:MainViewModel"
+        Title="SANABI Gestor"
+        Icon="/Assets/icon.ico"
+        FontFamily="{Binding UiFontFamily}"
+        Width="1180" Height="780" MinWidth="920" MinHeight="600"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource BgBrush}"
+        DragDrop.AllowDrop="True">
+
+  <Window.Resources>
+    <DataTemplate x:Key="ModCardTemplate" x:DataType="vm:ModCardViewModel">
+      <views:HolographicCard Classes="card" Width="280" Margin="0,0,14,14" Padding="0" ClipToBounds="True" PointerPressed="OnModCardPressed" Cursor="Hand">
+        <StackPanel>
+          <Panel Height="150" Background="#10131A">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="4" Margin="16,24,16,0"
+                        IsVisible="{Binding Preview, Converter={x:Static ObjectConverters.IsNull}}">
+              <TextBlock Text="{Binding Name}" FontSize="22" FontWeight="Black" Foreground="{DynamicResource TextBrush}"
+                         TextAlignment="Center" TextWrapping="Wrap" MaxLines="2" />
+              <TextBlock Text="{Binding Author}" FontSize="12" Foreground="{DynamicResource AccentBrush}" HorizontalAlignment="Center" />
+            </StackPanel>
+            <Image Source="{Binding Preview}" Stretch="UniformToFill" RenderOptions.BitmapInterpolationMode="None" />
+            <StackPanel Orientation="Horizontal" Spacing="6" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top">
+              <Border Width="24" Height="24" CornerRadius="12" Background="#ED3DDC97" IsVisible="{Binding IsChecked}" AutomationProperties.Name="Mod del catálogo revisado">
+                <Path Data="M 6,12 L 10,16 L 18,8" Stroke="#10251B" StrokeThickness="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="24" Height="24" />
+              </Border>
+              <Border Classes="badge" Background="#CC0D0F14" IsVisible="{Binding IsCommunity}">
+                <TextBlock Text="{loc:UiText ReviewText}" />
+              </Border>
+              <Border Classes="badge" Background="#CC0D0F14">
+                <TextBlock Text="{loc:UiText Category}" />
+              </Border>
+            </StackPanel>
+            <Border Classes="badge" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Top" Background="#CC1A3D2E" IsVisible="{Binding IsInstalled}">
+              <TextBlock Text="{loc:Tr 'Instalado'}" Foreground="{DynamicResource OkBrush}" />
+            </Border>
+          </Panel>
+          <StackPanel Margin="14,12,14,14" Spacing="6">
+            <Button Classes="cardTitle" Command="{Binding OpenDetailsCommand}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left"><TextBlock Classes="h2" Text="{Binding Name}" TextWrapping="Wrap" /></Button>
+            <TextBlock Classes="muted" Text="{Binding Meta}" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" />
+            <TextBlock Classes="body" Text="{Binding Description}" MaxLines="5" TextTrimming="CharacterEllipsis" FontSize="12.5" />
+            <TextBlock Classes="muted" Text="{Binding Note}" IsVisible="{Binding HasNote}" />
+            <TextBlock Classes="muted" Text="{loc:Tr 'Necesita BepInEx (se instala solo)'}" IsVisible="{Binding NeedsBepInEx}" />
+            <TextBlock Classes="muted" Text="{loc:UiText CompatText}" Foreground="{DynamicResource WarnBrush}" IsVisible="{Binding !Compatible}" />
+            <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,0">
+              <Button Classes="primary" Content="{Binding ActionText}" Command="{Binding InstallCommand}" />
+              <Button Classes="ghost" Content="{Binding UrlText}" Command="{Binding OpenUrlCommand}" IsVisible="{Binding HasUrl}" />
+            </StackPanel>
+          </StackPanel>
+        </StackPanel>
+      </views:HolographicCard>
+    </DataTemplate>
+  </Window.Resources>
+
+  <Grid>
+    <Grid ColumnDefinitions="232,*" RowDefinitions="*,Auto">
+
+      <!-- ============ Barra lateral ============ -->
+      <Border Grid.RowSpan="2" Background="{DynamicResource PanelBrush}" BorderBrush="{DynamicResource LineBrush}" BorderThickness="0,0,1,0">
+        <DockPanel>
+          <StackPanel DockPanel.Dock="Top" Margin="20,22,20,18" Spacing="10">
+            <StackPanel Orientation="Horizontal" Spacing="12">
+              <Image Source="/Assets/logo.png" Width="44" Height="44" RenderOptions.BitmapInterpolationMode="None" />
+              <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="SANABI" FontSize="20" FontWeight="Black" LetterSpacing="2" Foreground="{DynamicResource TextBrush}" />
+                <TextBlock Text="{loc:Tr 'GESTOR DE MODS'}" FontSize="10.5" FontWeight="SemiBold" LetterSpacing="1.5" Foreground="{DynamicResource AccentBrush}" />
+              </StackPanel>
+            </StackPanel>
+          </StackPanel>
+
+          <StackPanel DockPanel.Dock="Bottom" Margin="16,0,16,16" Spacing="10">
+            <Border Classes="card" Padding="12">
+              <StackPanel Spacing="4">
+                <TextBlock Text="{loc:UiText GameStatus}" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}" />
+                <TextBlock Text="{Binding GamePath}" Classes="muted" FontSize="11" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" IsVisible="{Binding HasGame}" />
+                <Button Content="Elegir carpeta..." Classes="link" FontSize="12" Command="{Binding BrowseGameCommand}" IsVisible="{Binding !HasGame}" />
+              </StackPanel>
+            </Border>
+            <Button Classes="primary play" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" Padding="0,19" FontSize="16" MinHeight="64"
+                    Content="▶  Jugar SANABI" Command="{Binding PlayCommand}" IsEnabled="{Binding HasGame}" />
+            <TextBlock Text="{Binding AppVersion}" Classes="muted" FontSize="11" HorizontalAlignment="Center" />
+          </StackPanel>
+
+          <ListBox Classes="nav" SelectedIndex="{Binding Section}">
+            <ListBox.Styles><Style Selector="ListBoxItem"><Setter Property="ContentTemplate" Value="{StaticResource ActionTemplate}" /></Style></ListBox.Styles>
+            <ListBoxItem Content="Mis mods" />
+            <ListBoxItem Content="Mods" />
+            <ListBoxItem Content="Nexus Mods" />
+            <ListBoxItem Content="Subir mod" />
+            <ListBoxItem Content="Ajustes" />
+            <ListBoxItem Content="{Binding NotificationLabel}" />
+          </ListBox>
+        </DockPanel>
+      </Border>
+
+      <!-- ============ Contenido ============ -->
+      <Panel Grid.Column="1">
+        <ScrollViewer IsVisible="{Binding IsNotificationsSection}">
+          <StackPanel Margin="28,24,28,28" Spacing="16" MaxWidth="900" HorizontalAlignment="Left">
+            <Grid ColumnDefinitions="*,Auto">
+              <TextBlock Classes="h1" Text="{loc:Tr 'Actualizaciones'}" />
+              <Button Grid.Column="1" Classes="ghost" Content="Comprobar actualizaciones" Command="{Binding CheckManagerUpdateCommand}" IsEnabled="{Binding !CheckingUpdate}" />
+            </Grid>
+            <TextBlock Classes="muted" Text="{loc:Tr 'El gestor comprueba las releases al abrirse y cada 6 horas. La instalación empieza cuando elegís actualizar.'}" TextWrapping="Wrap" />
+            <Border Classes="card"><StackPanel Spacing="12">
+              <TextBlock Classes="h2" Text="{loc:UiText UpdateTitle}" />
+              <TextBlock Classes="muted" Text="{loc:UiText UpdateStatus}" TextWrapping="Wrap" />
+              <TextBlock Classes="muted" Text="{loc:UiText UpdateFormatHint}" TextWrapping="Wrap" />
+              <SelectableTextBlock Text="{Binding ReleaseNotes}" TextWrapping="Wrap" Foreground="{DynamicResource TextBrush}" IsVisible="{Binding HasManagerUpdate}" />
+              <StackPanel Orientation="Horizontal" Spacing="10" IsVisible="{Binding HasManagerUpdate}">
+                <Button Classes="primary" Content="Actualizar y reiniciar" Command="{Binding UpdateManagerCommand}" IsEnabled="{Binding CanUpdateManager}" />
+                <Button Classes="ghost" Content="Abrir release" Command="{Binding OpenReleasesCommand}" />
+              </StackPanel>
+              <ProgressBar Value="{Binding ManagerUpdateProgress}" Minimum="0" Maximum="100" IsVisible="{Binding UpdatingManager}" />
+            </StackPanel></Border>
+            <TextBlock Text="{Binding UpdateResult}" Classes="muted" TextWrapping="Wrap" />
+            <Button Classes="ghost" Content="Abrir Discord" Command="{Binding OpenDiscordCommand}" HorizontalAlignment="Left" />
+          </StackPanel>
+        </ScrollViewer>
+
+        <!-- Mis mods -->
+        <DockPanel IsVisible="{Binding IsInstalledSection}" Margin="28,24,28,0">
+          <StackPanel DockPanel.Dock="Top" Spacing="14" Margin="0,0,0,16">
+            <Grid ColumnDefinitions="*,Auto">
+              <StackPanel>
+                <TextBlock Classes="h1" Text="{loc:Tr 'Mis mods'}" />
+                <TextBlock Classes="muted" Text="{loc:Tr 'Activa, desactiva o quita mods. Al desactivar uno, el juego vuelve a sus archivos originales.'}" />
+              </StackPanel>
+              <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+                <Button Classes="ghost" Content="Instalar carpeta..." Command="{Binding InstallFromFolderCommand}" />
+                <Button Classes="primary" Content="Instalar desde archivo..." Command="{Binding InstallFromFileCommand}" />
+              </StackPanel>
+            </Grid>
+            <Border Classes="banner" IsVisible="{Binding NeedsReapply}">
+              <Grid ColumnDefinitions="*,Auto">
+                <TextBlock Classes="body" VerticalAlignment="Center" Foreground="{DynamicResource WarnBrush}"
+                           Text="{loc:Tr 'Steam actualizo o verifico el juego y piso archivos de tus mods. Reaplicalos para volver a tenerlos.'}" />
+                <Button Grid.Column="1" Classes="primary" Content="Reaplicar mods" Command="{Binding ReapplyCommand}" Margin="12,0,0,0" />
+              </Grid>
+            </Border>
+          </StackPanel>
+
+          <Panel>
+            <Border Classes="card" IsVisible="{Binding HasNoInstalled}" VerticalAlignment="Top" Padding="28">
+              <StackPanel Spacing="8" HorizontalAlignment="Center">
+                <TextBlock Classes="h2" Text="{loc:Tr 'Todavia no instalaste mods'}" HorizontalAlignment="Center" />
+                <TextBlock Classes="muted" TextAlignment="Center" MaxWidth="520"
+                           Text="{loc:Tr 'Busca en Mods o en Nexus Mods. Tambien podes arrastrar un .zip, .7z, .rar o .dll a esta ventana.'}" />
+              </StackPanel>
+            </Border>
+            <ScrollViewer>
+              <ItemsControl ItemsSource="{Binding Installed}" Margin="0,0,0,20">
+                <ItemsControl.ItemsPanel>
+                  <ItemsPanelTemplate><StackPanel Spacing="10" /></ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                  <DataTemplate x:DataType="vm:InstalledModViewModel">
+                    <Border Classes="card" PointerPressed="OnModCardPressed">
+                      <Grid ColumnDefinitions="Auto,Auto,*,Auto">
+                        <Border Width="76" Height="64" CornerRadius="10" ClipToBounds="True" Margin="0,0,14,0" Background="{DynamicResource BgBrush}">
+                          <Image Source="{Binding Preview}" Stretch="Uniform" RenderOptions.BitmapInterpolationMode="None" />
+                        </Border>
+                        <ToggleSwitch Grid.Column="1" IsChecked="{Binding IsEnabled}" Command="{Binding ToggleCommand}" OnContent="" OffContent=""
+                                      VerticalAlignment="Center" Margin="0,0,14,0" />
+                        <StackPanel Grid.Column="2" Spacing="4">
+                          <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button Classes="cardTitle" Command="{Binding OpenDetailsCommand}"><TextBlock Classes="h2" Text="{Binding Name}" /></Button>
+                            <TextBlock Classes="muted" Text="{Binding Version}" VerticalAlignment="Center" />
+                            <Border Classes="badge"><TextBlock Text="{loc:UiText SourceText}" /></Border>
+                            <Border Classes="badge" IsVisible="{Binding NeedsBepInEx}"><TextBlock Text="{loc:Tr 'BepInEx'}" /></Border>
+                            <Border Classes="badge" IsVisible="{Binding NeedsReapply}" Background="#3A2F12"><TextBlock Text="{loc:Tr 'Pisado por Steam'}" Foreground="{DynamicResource WarnBrush}" /></Border>
+                          </StackPanel>
+                          <TextBlock Classes="body" Text="{Binding Description}" MaxLines="2" TextTrimming="CharacterEllipsis"
+                                     IsVisible="{Binding Description, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+                          <TextBlock Classes="muted" Text="{Binding FilesText}" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="3" Orientation="Horizontal" Spacing="6" VerticalAlignment="Center">
+                          <Button Classes="ghost" Content="Archivos" Command="{Binding OpenFolderCommand}" />
+                          <Button Classes="ghost" Content="Desinstalar" Command="{Binding UninstallCommand}" />
+                        </StackPanel>
+                      </Grid>
+                    </Border>
+                  </DataTemplate>
+                </ItemsControl.ItemTemplate>
+              </ItemsControl>
+            </ScrollViewer>
+          </Panel>
+        </DockPanel>
+
+        <!-- Mods: chequeados + comunidad -->
+        <DockPanel IsVisible="{Binding IsModsSection}" Margin="28,24,28,0">
+          <StackPanel DockPanel.Dock="Top" Spacing="12" Margin="0,0,0,12">
+            <Grid ColumnDefinitions="*,Auto">
+              <StackPanel>
+                <TextBlock Classes="h1" Text="{loc:Tr 'Mods'}" />
+                <TextBlock Classes="muted" Text="{loc:Tr 'Mods del catálogo y de la comunidad. Abrí una tarjeta para ver archivos, instalación y comprobaciones.'}" />
+              </StackPanel>
+              <Button Grid.Column="1" Classes="ghost" Content="Actualizar" Command="{Binding LoadModsCommand}" VerticalAlignment="Center" />
+            </Grid>
+            <Grid ColumnDefinitions="*,Auto">
+              <TextBox Watermark="{loc:Tr 'Buscar mods (filtra la lista; Buscar en GitHub busca repos nuevos)...'}" Text="{Binding ModsQuery}" />
+              <Button Grid.Column="1" Classes="ghost" Content="Buscar en GitHub" Command="{Binding SearchGitHubCommand}" Margin="8,0,0,0" />
+            </Grid>
+            <ProgressBar IsIndeterminate="True" IsVisible="{Binding ModsLoading}" />
+            <ComboBox ItemsSource="{Binding ModCategories}" SelectedItem="{Binding SelectedCategory}" MinWidth="230" HorizontalAlignment="Left" />
+            <TextBlock Classes="muted" Text="{loc:UiText CategoryHelp}" TextWrapping="Wrap" />
+            <TextBlock Classes="muted" Text="{loc:UiText ModsError}" Foreground="{DynamicResource WarnBrush}" IsVisible="{Binding ModsError, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+          </StackPanel>
+          <ScrollViewer>
+            <StackPanel Spacing="10" Margin="0,0,0,24">
+              <StackPanel IsVisible="{Binding HasExperimentalMods}" Spacing="10" Margin="0,0,0,8">
+                <TextBlock Classes="h2" Text="{loc:Tr 'Experimentales · Personajes y habilidades'}" />
+                <TextBlock Classes="muted" Text="{loc:Tr 'Mods de jugabilidad en desarrollo. La ficha indica controles, compatibilidad y pruebas pendientes.'}" />
+                <ItemsControl ItemsSource="{Binding ExperimentalMods}" ItemTemplate="{StaticResource ModCardTemplate}">
+                  <ItemsControl.ItemsPanel><ItemsPanelTemplate><WrapPanel /></ItemsPanelTemplate></ItemsControl.ItemsPanel>
+                </ItemsControl>
+              </StackPanel>
+              <StackPanel Orientation="Horizontal" Spacing="10">
+                <Border Background="#1A3D2E" CornerRadius="12" Width="24" Height="24">
+                  <TextBlock Text="✓" FontWeight="Bold" Foreground="{DynamicResource OkBrush}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Border>
+                <TextBlock Classes="h2" Text="{loc:Tr 'Verificados · Catálogo'}" VerticalAlignment="Center" />
+              </StackPanel>
+              <ItemsControl ItemsSource="{Binding CheckedMods}" ItemTemplate="{StaticResource ModCardTemplate}">
+                <ItemsControl.ItemsPanel>
+                  <ItemsPanelTemplate><WrapPanel /></ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+              </ItemsControl>
+
+              <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,8,0,0">
+                <Border Background="#3A2F12" CornerRadius="12" Width="24" Height="24">
+                  <TextBlock Text="!" FontWeight="Bold" Foreground="{DynamicResource WarnBrush}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </Border>
+                <TextBlock Classes="h2" Text="{loc:Tr 'Comunidad (sin chequear)'}" VerticalAlignment="Center" />
+              </StackPanel>
+              <TextBlock Classes="muted" Text="{loc:Tr 'No los probamos nosotros. &quot;Es de SANABI&quot; significa que revisamos que el repo sea un mod de este juego; &quot;Sin revisar&quot; son resultados nuevos de la busqueda.'}" />
+              <TextBlock Classes="muted" Text="{loc:Tr 'No hay mods de la comunidad con esa busqueda.'}" IsVisible="{Binding HasNoCommunity}" />
+              <ItemsControl ItemsSource="{Binding CommunityMods}" ItemTemplate="{StaticResource ModCardTemplate}">
+                <ItemsControl.ItemsPanel>
+                  <ItemsPanelTemplate><WrapPanel /></ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+              </ItemsControl>
+            </StackPanel>
+          </ScrollViewer>
+        </DockPanel>
+
+        <!-- Ficha completa -->
+        <ScrollViewer IsVisible="{Binding IsModDetailsSection}">
+          <StackPanel Margin="28,24,28,28" Spacing="18">
+            <Button Classes="ghost" Content="← Volver a la lista" Command="{Binding CloseModDetailsCommand}" HorizontalAlignment="Left" />
+            <StackPanel DataContext="{Binding SelectedMod}" x:DataType="vm:ModCardViewModel" Spacing="18">
+              <Grid ColumnDefinitions="320,*">
+                <Border CornerRadius="12" ClipToBounds="True" Background="#10131A" Height="210">
+                  <Image Source="{Binding Preview}" Stretch="Uniform" RenderOptions.BitmapInterpolationMode="None" />
+                </Border>
+                <StackPanel Grid.Column="1" Margin="22,0,0,0" Spacing="10">
+                  <TextBlock Classes="h1" Text="{Binding Name}" TextWrapping="Wrap" />
+                  <TextBlock Classes="muted" Text="{loc:UiText CategoryDescription}" TextWrapping="Wrap" />
+                  <TextBlock Classes="muted" Text="{Binding Meta}" />
+                  <TextBlock Classes="body" Text="{Binding Description}" />
+                  <TextBlock Classes="muted" Text="{loc:UiText GameVersionText}" />
+                  <StackPanel Spacing="6" IsVisible="{Binding HasVariants}">
+                    <TextBlock Classes="muted" Text="{loc:Tr 'Versión de la traducción'}" />
+                    <ComboBox ItemsSource="{Binding Variants}" SelectedItem="{Binding SelectedVariant}" HorizontalAlignment="Stretch" />
+                  </StackPanel>
+                  <StackPanel Orientation="Horizontal" Spacing="8">
+                    <Button Classes="primary" Content="{Binding ActionText}" Command="{Binding InstallCommand}" IsVisible="{Binding CanInstall}" />
+                    <Button Classes="ghost" Content="Abrir fuente" Command="{Binding OpenUrlCommand}" IsVisible="{Binding HasUrl}" />
+                  </StackPanel>
+                </StackPanel>
+              </Grid>
+              <Border Classes="card"><StackPanel Spacing="8">
+                <TextBlock Classes="h2" Text="{loc:UiText InstallationTitle}" />
+                <SelectableTextBlock Text="{loc:UiText InstallationInstructions}" TextWrapping="Wrap" Foreground="{DynamicResource TextBrush}" />
+              </StackPanel></Border>
+              <Border Classes="card"><StackPanel Spacing="8">
+                <TextBlock Classes="h2" Text="{loc:Tr 'Compatibilidad y comprobaciones'}" />
+                <TextBlock Classes="body" Text="{loc:UiText CompatibilityNotes}" />
+                <TextBlock Classes="muted" Text="{loc:UiText VerificationText}" />
+                <TextBlock Classes="muted" Text="{Binding Note}" IsVisible="{Binding HasNote}" />
+                <TextBlock Classes="muted" Text="{loc:UiText CompatText}" Foreground="{DynamicResource WarnBrush}" IsVisible="{Binding !Compatible}" />
+              </StackPanel></Border>
+              <Border Classes="card"><StackPanel Spacing="10">
+                <TextBlock Classes="h2" Text="{loc:Tr 'Archivos que instala'}" />
+                <ItemsControl ItemsSource="{Binding FileRows}">
+                  <ItemsControl.ItemsPanel><ItemsPanelTemplate><StackPanel Spacing="12" /></ItemsPanelTemplate></ItemsControl.ItemsPanel>
+                  <ItemsControl.ItemTemplate><DataTemplate x:DataType="x:String">
+                    <SelectableTextBlock Text="{Binding}" TextWrapping="Wrap" FontSize="12" Foreground="{DynamicResource MutedBrush}" />
+                  </DataTemplate></ItemsControl.ItemTemplate>
+                </ItemsControl>
+              </StackPanel></Border>
+              <Border Classes="card" IsVisible="{Binding HasReadme}"><StackPanel Spacing="10">
+                <TextBlock Classes="h2" Text="{loc:Tr 'README del mod'}" />
+                <TextBlock Classes="muted" Text="{loc:Tr 'Cargando documentación…'}" IsVisible="{Binding ReadmeLoading}" />
+                <views:ReadmeView Text="{Binding ReadmeText}" />
+              </StackPanel></Border>
+              <Border Classes="card" IsVisible="{Binding IsTranslation}"><StackPanel Spacing="10">
+                <TextBlock Classes="h2" Text="{loc:Tr 'Traducción por edición'}" />
+                <TextBlock Classes="body" Text="{loc:Tr 'Elegí la fecha de la traducción y pulsá Instalar. El gestor descarga los .bundle correspondientes del repositorio y los instala con copia de respaldo. No traduce durante el juego.'}" />
+              </StackPanel></Border>
+            </StackPanel>
+          </StackPanel>
+        </ScrollViewer>
+
+        <!-- Nexus -->
+        <DockPanel IsVisible="{Binding IsNexusSection}" Margin="28,24,28,0">
+          <StackPanel DockPanel.Dock="Top" Spacing="12" Margin="0,0,0,16">
+            <Grid ColumnDefinitions="*,Auto">
+              <StackPanel>
+                <TextBlock Classes="h1" Text="{loc:Tr 'Nexus Mods'}" />
+                <TextBlock Classes="muted" Text="{loc:UiText NexusAccount}" />
+              </StackPanel>
+              <Button Grid.Column="1" Classes="ghost" Content="Actualizar" Command="{Binding LoadNexusCommand}" VerticalAlignment="Center" />
+            </Grid>
+            <TextBox Watermark="{loc:Tr 'Buscar en los mods de SANABI de Nexus...'}" Text="{Binding NexusQuery}" />
+            <ProgressBar IsIndeterminate="True" IsVisible="{Binding NexusLoading}" />
+            <TextBlock Classes="muted" Text="{loc:UiText NexusError}" Foreground="{DynamicResource WarnBrush}" IsVisible="{Binding NexusError, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+          </StackPanel>
+          <ScrollViewer>
+            <ItemsControl ItemsSource="{Binding NexusMods}" Margin="0,0,0,20">
+              <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate><StackPanel Spacing="10" /></ItemsPanelTemplate>
+              </ItemsControl.ItemsPanel>
+              <ItemsControl.ItemTemplate>
+                <DataTemplate x:DataType="vm:NexusModViewModel">
+                  <Border Classes="card" Padding="0" ClipToBounds="True" PointerPressed="OnModCardPressed">
+                    <StackPanel>
+                      <Grid ColumnDefinitions="200,*">
+                        <Panel Background="#10131A" MinHeight="112">
+                          <Image Source="{Binding Picture}" Stretch="UniformToFill" />
+                        </Panel>
+                        <StackPanel Grid.Column="1" Margin="16,12" Spacing="5">
+                          <StackPanel Orientation="Horizontal" Spacing="8">
+                            <Button Classes="cardTitle" Command="{Binding OpenDetailsCommand}"><TextBlock Classes="h2" Text="{Binding Name}" /></Button>
+                            <TextBlock Classes="muted" Text="{Binding Version}" VerticalAlignment="Center" />
+                          </StackPanel>
+                          <TextBlock Classes="muted"><Run Text="{Binding Author}" /><Run Text="{loc:Tr ' · '}" /><Run Text="{Binding Stats}" /></TextBlock>
+                          <TextBlock Classes="body" Text="{Binding Summary}" MaxLines="3" TextTrimming="CharacterEllipsis" FontSize="12.5" />
+                          <StackPanel Orientation="Horizontal" Spacing="8" Margin="0,4,0,0">
+                            <Button Classes="primary" Content="Ver archivos" Command="{Binding ToggleFilesCommand}" />
+                            <Button Classes="ghost" Content="Abrir en Nexus" Command="{Binding OpenPageCommand}" />
+                          </StackPanel>
+                        </StackPanel>
+                      </Grid>
+                      <StackPanel IsVisible="{Binding ShowFiles}" Margin="16,0,16,14" Spacing="8">
+                        <ProgressBar IsIndeterminate="True" IsVisible="{Binding LoadingFiles}" />
+                        <ItemsControl ItemsSource="{Binding Files}">
+                          <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate><StackPanel Spacing="6" /></ItemsPanelTemplate>
+                          </ItemsControl.ItemsPanel>
+                          <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="vm:NexusFileViewModel">
+                              <Border Background="#141821" CornerRadius="6" Padding="12,8">
+                                <Grid ColumnDefinitions="*,Auto">
+                                  <StackPanel Spacing="2">
+                                    <TextBlock Classes="body" FontWeight="SemiBold" Text="{Binding Name}" />
+                                    <TextBlock Classes="muted" Text="{Binding Meta}" />
+                                    <TextBlock Classes="muted" Text="{Binding Description}" MaxLines="3" TextTrimming="CharacterEllipsis"
+                                               IsVisible="{Binding Description, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+                                  </StackPanel>
+                                  <Button Grid.Column="1" Classes="primary" Content="Instalar" Command="{Binding InstallCommand}" VerticalAlignment="Center" Margin="12,0,0,0" />
+                                </Grid>
+                              </Border>
+                            </DataTemplate>
+                          </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                      </StackPanel>
+                    </StackPanel>
+                  </Border>
+                </DataTemplate>
+              </ItemsControl.ItemTemplate>
+            </ItemsControl>
+          </ScrollViewer>
+        </DockPanel>
+
+        <!-- Subir mod -->
+        <ScrollViewer IsVisible="{Binding IsUploadSection}">
+          <StackPanel Margin="28,24,28,28" Spacing="16" MaxWidth="900" HorizontalAlignment="Left">
+            <StackPanel>
+              <TextBlock Classes="h1" Text="{loc:Tr 'Subir un mod'}" />
+              <TextBlock Classes="muted" Text="{loc:Tr 'Tu mod se envia como pull request al repositorio. Aparece en el Catalogo cuando lo revisan y aprueban.'}" />
+            </StackPanel>
+
+            <Border Classes="card">
+              <StackPanel Spacing="8">
+                <TextBlock Classes="h2" Text="{loc:Tr '1. Cuenta de GitHub'}" />
+                <StackPanel IsVisible="{Binding GitHubAccount, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" Orientation="Horizontal" Spacing="10">
+                  <TextBlock Classes="body" VerticalAlignment="Center"><Run Text="{loc:Tr 'Sesion iniciada como '}" /><Run Text="{Binding GitHubAccount}" FontWeight="Bold" /></TextBlock>
+                  <Button Classes="ghost" Content="Cerrar sesion" Command="{Binding GitHubLogoutCommand}" />
+                </StackPanel>
+                <StackPanel IsVisible="{Binding GitHubAccount, Converter={x:Static StringConverters.IsNullOrEmpty}}" Spacing="8">
+                  <StackPanel IsVisible="{Binding DeviceFlowAvailable}" Spacing="6">
+                    <Button Classes="primary" Content="Iniciar sesion con GitHub" Command="{Binding GitHubLoginCommand}" />
+                    <TextBlock Classes="body" IsVisible="{Binding DeviceCode, Converter={x:Static StringConverters.IsNotNullOrEmpty}}">
+                      <Run Text="{loc:Tr 'Pega este codigo en la pagina que se abrio: '}" /><Run Text="{Binding DeviceCode}" FontWeight="Bold" FontSize="18" Foreground="{DynamicResource AccentBrush}" />
+                    </TextBlock>
+                  </StackPanel>
+                  <StackPanel IsVisible="{Binding !DeviceFlowAvailable}" Spacing="6">
+                    <TextBlock Classes="muted" Text="{loc:Tr 'Crea un token con permiso public_repo (un clic) y pegalo aca. Si no tenes cuenta de GitHub, crearla es gratis.'}" />
+                    <Grid ColumnDefinitions="*,Auto,Auto">
+                      <TextBox PasswordChar="•" Watermark="{loc:Tr 'ghp_...'}" Text="{Binding GitHubTokenInput}" />
+                      <Button Grid.Column="1" Classes="ghost" Content="Crear token" Command="{Binding OpenGitHubTokenPageCommand}" Margin="8,0,0,0" />
+                      <Button Grid.Column="2" Classes="primary" Content="Guardar" Command="{Binding SaveGitHubTokenCommand}" Margin="8,0,0,0" />
+                    </Grid>
+                  </StackPanel>
+                </StackPanel>
+              </StackPanel>
+            </Border>
+
+            <Border Classes="card">
+              <StackPanel Spacing="10">
+                <TextBlock Classes="h2" Text="{loc:Tr '2. Archivos del mod'}" />
+                <TextBlock Classes="muted" Text="{loc:Tr 'Un .zip/.7z/.rar, una carpeta, un plugin .dll o un .bundle. El gestor detecta a donde va cada archivo (tambien podes arrastrarlo aca).'}" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                  <Button Classes="primary" Content="Elegir archivo..." Command="{Binding PickUploadArchiveCommand}" />
+                  <Button Classes="ghost" Content="Elegir carpeta..." Command="{Binding PickUploadFolderCommand}" />
+                </StackPanel>
+                <TextBlock Classes="muted" Text="{Binding UploadSource}" />
+                <Border Background="#10131A" CornerRadius="6" Padding="10" IsVisible="{Binding UploadSource, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" MaxHeight="220">
+                  <ScrollViewer>
+                    <StackPanel>
+                      <ItemsControl ItemsSource="{Binding UploadFiles}">
+                        <ItemsControl.ItemTemplate>
+                          <DataTemplate x:DataType="x:String">
+                            <TextBlock Text="{Binding}" FontFamily="Consolas,Menlo,monospace" FontSize="12" Foreground="{DynamicResource OkBrush}" />
+                          </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                      </ItemsControl>
+                      <ItemsControl ItemsSource="{Binding UploadWarnings}">
+                        <ItemsControl.ItemTemplate>
+                          <DataTemplate x:DataType="x:String">
+                            <TextBlock Text="{Binding}" FontSize="12" Foreground="{DynamicResource WarnBrush}" />
+                          </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                      </ItemsControl>
+                    </StackPanel>
+                  </ScrollViewer>
+                </Border>
+              </StackPanel>
+            </Border>
+
+            <Border Classes="card">
+              <Grid ColumnDefinitions="*,16,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
+                <TextBlock Grid.ColumnSpan="3" Classes="h2" Text="{loc:Tr '3. Datos'}" Margin="0,0,0,10" />
+                <StackPanel Grid.Row="1" Spacing="4" Margin="0,0,0,10">
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Nombre'}" />
+                  <TextBox Text="{Binding UploadName}" Watermark="{loc:Tr 'Ej. Skin Tejedor'}" />
+                </StackPanel>
+                <StackPanel Grid.Row="1" Grid.Column="2" Spacing="4" Margin="0,0,0,10">
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Autor'}" />
+                  <TextBox Text="{Binding UploadAuthor}" />
+                </StackPanel>
+                <StackPanel Grid.Row="2" Spacing="4" Margin="0,0,0,10">
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Version del mod'}" />
+                  <TextBox Text="{Binding UploadVersion}" />
+                </StackPanel>
+                <StackPanel Grid.Row="2" Grid.Column="2" Spacing="4" Margin="0,0,0,10">
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Categoria'}" />
+                  <ComboBox ItemsSource="{Binding Categories}" SelectedItem="{Binding UploadCategory}" HorizontalAlignment="Stretch">
+                    <ComboBox.ItemTemplate><DataTemplate x:DataType="x:String"><TextBlock Text="{loc:UiText .}" /></DataTemplate></ComboBox.ItemTemplate>
+                  </ComboBox>
+                  <TextBlock Classes="muted" Text="{loc:UiText UploadCategoryHelp}" TextWrapping="Wrap" />
+                </StackPanel>
+                <StackPanel Grid.Row="3" Spacing="4" Margin="0,0,0,10">
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Version del juego (ej. >=1.3.53)'}" />
+                  <TextBox Text="{Binding UploadGameVersion}" />
+                </StackPanel>
+                <StackPanel Grid.Row="3" Grid.Column="2" Spacing="4" Margin="0,0,0,10">
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Imagen de portada (opcional, PNG)'}" />
+                  <Grid ColumnDefinitions="*,Auto">
+                    <TextBox Text="{Binding UploadPreview}" IsReadOnly="True" />
+                    <Button Grid.Column="1" Classes="ghost" Content="..." Command="{Binding PickUploadPreviewCommand}" Margin="6,0,0,0" />
+                  </Grid>
+                </StackPanel>
+                <StackPanel Grid.Row="4" Grid.ColumnSpan="3" Spacing="4" Margin="0,0,0,10">
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Descripcion'}" />
+                  <TextBox Text="{Binding UploadDescription}" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="80" />
+                </StackPanel>
+                <StackPanel Grid.Row="5" Grid.ColumnSpan="3" Spacing="4">
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Notas para quien revisa (opcional)'}" />
+                  <TextBox Text="{Binding UploadNotes}" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="50" />
+                </StackPanel>
+              </Grid>
+            </Border>
+
+            <Border Classes="card">
+              <StackPanel Spacing="10">
+                <TextBlock Classes="h2" Text="{loc:Tr '4. Enviar'}" />
+                <CheckBox IsChecked="{Binding UploadAccepted}">
+                  <TextBlock Classes="body" Text="{loc:Tr 'Mi mod es gratis, no usa contenido protegido de terceros (personajes, logos o musica de otras marcas) y respeta las reglas de contenido de fans de SANABI.'}" />
+                </CheckBox>
+                <Button Classes="link" Content="Leer las reglas de contenido de fans (NEOWIZ / WONDERPOTION)" Command="{Binding OpenGuidelinesCommand}" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                  <Button Classes="primary" Content="Enviar para revision" Command="{Binding SubmitUploadCommand}" />
+                  <Button Classes="ghost" Content="Probar en mi juego" Command="{Binding TestUploadCommand}" />
+                  <Button Classes="ghost" Content="Exportar .zip" Command="{Binding ExportUploadCommand}" />
+                </StackPanel>
+                <TextBlock Classes="muted" Text="{Binding UploadResultUrl}" IsVisible="{Binding UploadResultUrl, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" Foreground="{DynamicResource OkBrush}" />
+              </StackPanel>
+            </Border>
+          </StackPanel>
+        </ScrollViewer>
+
+        <ScrollViewer IsVisible="{Binding IsSettingsSection}">
+          <StackPanel Margin="28,24,28,28" Spacing="16" MaxWidth="900" HorizontalAlignment="Left">
+            <TextBlock Classes="h1" Text="{loc:Tr 'Ajustes'}" />
+            <Border Classes="card"><StackPanel Spacing="12">
+              <TextBlock Classes="h2" Text="{loc:Tr 'Apariencia e idioma'}" />
+              <Grid ColumnDefinitions="*,20,*">
+                <StackPanel Spacing="6"><TextBlock Classes="muted" Text="{loc:Tr 'Tema'}" /><ComboBox ItemsSource="{Binding Themes}" SelectedItem="{Binding SelectedTheme}" HorizontalAlignment="Stretch" /></StackPanel>
+                <StackPanel Grid.Column="2" Spacing="6"><TextBlock Classes="muted" Text="{loc:Tr 'Idioma de la aplicación'}" /><ComboBox ItemsSource="{Binding Languages}" SelectedItem="{Binding SelectedLanguage}" HorizontalAlignment="Stretch" /></StackPanel>
+              </Grid>
+              <TextBlock Classes="muted" Text="{loc:Tr 'Los cambios se aplican al instante. El idioma del juego se elige en el mod de traducción.'}" />
+              <Button Classes="ghost" Content="Importar idioma…" Command="{Binding ImportLanguageCommand}" HorizontalAlignment="Left" />
+            </StackPanel></Border>
+
+            <Border Classes="banner" IsVisible="{Binding UpdateAvailable, Converter={x:Static StringConverters.IsNotNullOrEmpty}}"
+                    Background="#13252A" BorderBrush="#1E5A63">
+              <Grid ColumnDefinitions="*,Auto">
+                <TextBlock Classes="body" VerticalAlignment="Center" Foreground="{DynamicResource CyanBrush}">
+                  <Run Text="{loc:Tr 'Hay una version nueva del gestor: v'}" /><Run Text="{Binding UpdateAvailable}" />
+                </TextBlock>
+                <Button Grid.Column="1" Classes="primary" Content="Ver actualización" Command="{Binding ShowNotificationsCommand}" />
+              </Grid>
+            </Border>
+
+            <Border Classes="card">
+              <StackPanel Spacing="10">
+                <TextBlock Classes="h2" Text="{loc:Tr 'Carpeta del juego'}" />
+                <TextBox Text="{Binding GamePath}" IsReadOnly="True" Watermark="{loc:Tr 'Sin elegir'}" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                  <Button Classes="primary" Content="Elegir carpeta..." Command="{Binding BrowseGameCommand}" />
+                  <Button Classes="ghost" Content="Buscar en Steam" Command="{Binding DetectGameCommand}" />
+                  <Button Classes="ghost" Content="Abrir carpeta" Command="{Binding OpenGameFolderCommand}" IsEnabled="{Binding HasGame}" />
+                </StackPanel>
+                <TextBlock Classes="muted" Text="{loc:UiText GameStatus}" />
+              </StackPanel>
+            </Border>
+
+            <Border Classes="card">
+              <StackPanel Spacing="10">
+                <TextBlock Classes="h2" Text="{loc:Tr 'BepInEx (cargador de plugins)'}" />
+                <TextBlock Classes="muted" Text="{loc:UiText BepInExStatus}" />
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                  <Button Classes="primary" Content="Instalar BepInEx" Command="{Binding InstallBepInExCommand}" IsVisible="{Binding !BepInExInstalled}" IsEnabled="{Binding HasGame}" />
+                  <Button Classes="ghost" Content="Quitar BepInEx" Command="{Binding UninstallBepInExCommand}" IsVisible="{Binding BepInExInstalled}" />
+                </StackPanel>
+                <StackPanel IsVisible="{Binding IsLinux}" Spacing="6">
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Linux (Proton): pega esto en Steam > SANABI > Propiedades > Opciones de lanzamiento:'}" />
+                  <Grid ColumnDefinitions="*,Auto">
+                    <TextBox Text="{Binding LinuxLaunchOptions}" IsReadOnly="True" FontFamily="Consolas,Menlo,monospace" />
+                    <Button Grid.Column="1" Classes="ghost" Content="Copiar" Command="{Binding CopyLaunchOptionsCommand}" Margin="8,0,0,0" />
+                  </Grid>
+                </StackPanel>
+              </StackPanel>
+            </Border>
+
+            <Border Classes="card">
+              <StackPanel Spacing="10">
+                <TextBlock Classes="h2" Text="{loc:Tr 'Cuenta de Nexus Mods'}" />
+                <TextBlock Classes="muted" Text="{loc:UiText NexusAccount}" />
+                <Button Classes="primary" Content="Conectar con Nexus" Command="{Binding NexusSsoCommand}" IsVisible="{Binding NexusSsoAvailable}" />
+                <TextBlock Classes="muted" Text="{loc:Tr 'Copia tu API key personal desde Nexus (abajo de todo en la pagina) y pegala aca. Se guarda solo en esta carpeta.'}" />
+                <Grid ColumnDefinitions="*,Auto,Auto">
+                  <TextBox PasswordChar="•" Watermark="{loc:Tr 'API key de Nexus'}" Text="{Binding NexusKeyInput}" />
+                  <Button Grid.Column="1" Classes="ghost" Content="Obtener key" Command="{Binding OpenNexusKeyPageCommand}" Margin="8,0,0,0" />
+                  <Button Grid.Column="2" Classes="primary" Content="Guardar" Command="{Binding SaveNexusKeyCommand}" Margin="8,0,0,0" />
+                </Grid>
+                <StackPanel Orientation="Horizontal" Spacing="8">
+                  <Button Classes="ghost" Content="Desconectar" Command="{Binding DisconnectNexusCommand}" />
+                  <Button Classes="ghost" Content="Usar este gestor para los enlaces de Nexus" Command="{Binding RegisterNxmCommand}" IsVisible="{Binding !NxmRegistered}" />
+                  <TextBlock Classes="muted" Text="{loc:Tr 'Los botones &quot;Mod Manager Download&quot; de Nexus abren este gestor.'}" IsVisible="{Binding NxmRegistered}" VerticalAlignment="Center" />
+                </StackPanel>
+              </StackPanel>
+            </Border>
+
+            <Border Classes="card">
+              <StackPanel Spacing="10">
+                <TextBlock Classes="h2" Text="{loc:Tr 'Restaurar'}" />
+                <TextBlock Classes="muted" Text="{loc:Tr 'Desactiva todos los mods y quita BepInEx. Los mods quedan guardados para volver a activarlos.'}" />
+                <Button Classes="ghost" Content="Dejar el juego original" Command="{Binding RestoreOriginalCommand}" IsEnabled="{Binding HasGame}" />
+              </StackPanel>
+            </Border>
+
+            <Border Classes="card">
+              <StackPanel Spacing="8">
+                <TextBlock Classes="h2" Text="{loc:Tr 'Acerca de'}" />
+                <TextBlock Classes="body" Text="{loc:Tr 'SANABI Gestor es una herramienta hecha por fans, gratis y de codigo abierto. No es oficial ni esta respaldada por WONDERPOTION o NEOWIZ. SANABI y sus personajes pertenecen a sus duenos.'}" />
+                <TextBlock Classes="muted"><Run Text="{loc:Tr 'Datos del programa: '}" /><Run Text="{Binding DataDir}" /></TextBlock>
+                <StackPanel Orientation="Horizontal" Spacing="16">
+                  <Button Classes="link" Content="Repositorio" Command="{Binding OpenRepoCommand}" />
+                  <Button Classes="link" Content="Reglas de contenido de fans" Command="{Binding OpenGuidelinesCommand}" />
+                  <Button Classes="link" Content="Carpeta de datos" Command="{Binding OpenDataFolderCommand}" />
+                </StackPanel>
+              </StackPanel>
+            </Border>
+          </StackPanel>
+        </ScrollViewer>
+      </Panel>
+
+      <!-- ============ Barra de estado ============ -->
+      <Border Grid.Column="1" Grid.Row="1" Background="{DynamicResource PanelBrush}" BorderBrush="{DynamicResource LineBrush}" BorderThickness="0,1,0,0">
+        <StackPanel>
+          <Border IsVisible="{Binding ShowConsole}" Height="170" Background="#0A0C10">
+            <ScrollViewer x:Name="ConsoleScroll" Padding="14,8">
+              <ItemsControl ItemsSource="{Binding ConsoleLines}">
+                <ItemsControl.ItemTemplate>
+                  <DataTemplate x:DataType="x:String">
+                    <SelectableTextBlock Text="{Binding}" FontFamily="Consolas,Menlo,monospace" FontSize="12" Foreground="#9FD8A8" TextWrapping="Wrap" />
+                  </DataTemplate>
+                </ItemsControl.ItemTemplate>
+              </ItemsControl>
+            </ScrollViewer>
+          </Border>
+          <Grid ColumnDefinitions="*,220,Auto" Margin="16,8">
+            <TextBlock Text="{loc:UiText Status}" VerticalAlignment="Center" Foreground="{DynamicResource MutedBrush}" FontSize="12.5" TextTrimming="CharacterEllipsis" />
+            <ProgressBar Grid.Column="1" Value="{Binding Progress}" Maximum="1" IsVisible="{Binding IsBusy}" Margin="12,0" VerticalAlignment="Center" />
+            <Button Grid.Column="2" Classes="ghost" Padding="10,4" FontSize="12" Content="Consola" Command="{Binding ToggleConsoleCommand}" />
+          </Grid>
+        </StackPanel>
+      </Border>
+    </Grid>
+
+    <!-- ============ Dialogo ============ -->
+    <Panel IsVisible="{Binding Dialog, Converter={x:Static ObjectConverters.IsNotNull}}" Background="#B0000000">
+      <Border Classes="card" Width="520" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="24"
+              BoxShadow="0 10 40 0 #80000000" DataContext="{Binding Dialog}" x:DataType="vm:DialogViewModel">
+        <StackPanel Spacing="14">
+          <TextBlock Classes="h2" FontSize="18" Text="{Binding Title}" />
+          <TextBlock Text="{Binding HighlightName}" Foreground="{DynamicResource CyanBrush}" FontWeight="SemiBold" FontSize="20" TextWrapping="Wrap"
+                     IsVisible="{Binding HighlightName, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+          <SelectableTextBlock Text="{Binding Message}" TextWrapping="Wrap" Foreground="{DynamicResource TextBrush}" FontSize="13.5" />
+          <ItemsControl ItemsSource="{Binding Buttons}" HorizontalAlignment="Right">
+            <ItemsControl.ItemsPanel>
+              <ItemsPanelTemplate><StackPanel Orientation="Horizontal" Spacing="8" /></ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+              <DataTemplate x:DataType="vm:DialogButton">
+                <Button Content="{Binding Text}" Command="{Binding ChooseCommand}" Classes.primary="{Binding Primary}" Classes.ghost="{Binding !Primary}" />
+              </DataTemplate>
+            </ItemsControl.ItemTemplate>
+          </ItemsControl>
+        </StackPanel>
+      </Border>
+    </Panel>
+  </Grid>
+</Window>

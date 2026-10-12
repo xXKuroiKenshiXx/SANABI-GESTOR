@@ -1,0 +1,19 @@
+{
+  "id": "spider-2099",
+  "name": "Spider-Man 2099 · Capa roja",
+  "version": "1.2.0",
+  "author": "Kuro Kenshi",
+  "description": "Spider-Man 2099 con capa roja en todas las poses del cuerpo, incluido reposo. Conserva el diseño de esta skin y los sonidos de telaraña. La variante Modelo completo usa figuras y animaciones distintas.",
+  "category": "skins",
+  "tags": [
+    "skin",
+    "telaraña",
+    "audio",
+    "2099"
+  ],
+  "gameVersion": "1.3.53",
+  "preview": "preview.png",
+  "verification": "package",
+  "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+  "compatibilityNotes": "Campaña principal. Máscara y brazo redibujados; malla de render ampliada para evitar recortes. Elegí una sola skin o capa del héroe a la vez. Conserva los sonidos de telaraña de la versión anterior. Prueba dentro del juego pendiente."
+}

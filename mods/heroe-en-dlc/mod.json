@@ -1,0 +1,17 @@
+{
+  "id": "heroe-en-dlc",
+  "name": "Sargento · Skin DLC",
+  "version": "1.0.0",
+  "author": "Kuro Kenshi",
+  "description": "El protagonista original reemplaza visualmente a Major Son en el DLC.",
+  "category": "skins",
+  "tags": [
+    "skin",
+    "intercambio"
+  ],
+  "gameVersion": "1.3.53",
+  "preview": "preview.png",
+  "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+  "compatibilityNotes": "DLC: conserva los ataques y la jugabilidad de Major Son. Intercambio de apariencia, no del controlador. Las animaciones se adaptan entre campañas; las poses sin equivalente usan una pose cercana o de reposo. Las escenas con sprites propios no se sustituyen. Prueba de movimiento dentro del juego pendiente. Puede combinarse con las capas de la campaña principal.",
+  "verification": "package"
+}

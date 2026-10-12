@@ -1,0 +1,18 @@
+{
+  "id": "spiderman-modelo-completo",
+  "name": "Spider-Man · Modelo completo",
+  "version": "1.2.0",
+  "author": "Kuro Kenshi · atlas de referencia del usuario",
+  "description": "Figura completa de Spider-Man con sprites y secuencias del atlas de referencia: reposo, carrera, salto, balanceo, pared, disparo y daño. Sin capa ni brazo mecánico.",
+  "category": "skins",
+  "tags": [
+    "modelo completo",
+    "animaciones",
+    "spider-man"
+  ],
+  "gameVersion": "1.3.53",
+  "preview": "preview.png",
+  "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+  "compatibilityNotes": "SANABI 1.3.53, campaña principal. Sustituye el cuerpo completo y las secuencias visuales; conserva los controladores, colisiones y tiempos del juego. El gancho funciona como telaraña y no muestra el brazo mecánico. Los movimientos narrativos sin equivalente usan reposo. Conflicta con otras skins/capas del protagonista. Prueba de movimiento dentro del juego pendiente.",
+  "verification": "package"
+}

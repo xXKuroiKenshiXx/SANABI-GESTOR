@@ -1,0 +1,942 @@
+{
+  "schema": 1,
+  "generated": "2026-10-12T00:07:17Z",
+  "mods": [
+    {
+      "id": "brazo-minigun",
+      "name": "Brazo minigun · Experimental",
+      "version": "0.2.0",
+      "author": "Kuro Kenshi",
+      "description": "Alterná gancho/minigun con 2. Dispará proyectiles visibles con daño muy bajo: 0,04 HP por impacto, 25 impactos al mismo enemigo para quitar 1 HP. Apuntado con mouse, colisión con paredes, cañones animados, sonido y sobrecalentamiento. Experimental: prueba de combate pendiente.",
+      "category": "habilidades",
+      "tags": [
+        "minigun",
+        "arma",
+        "experimental"
+      ],
+      "requires": [
+        "bepinex"
+      ],
+      "path": "mods/brazo-minigun",
+      "size": 26624,
+      "files": [
+        {
+          "src": "mods/brazo-minigun/files/BepInEx/plugins/SanabiMinigun.dll",
+          "dst": "BepInEx/plugins/SanabiMinigun.dll",
+          "size": 26624,
+          "sha256": "c17ade8c80a86cfa662ad5c49edf093d472798d7e7969955cec7fa35762269d5"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta y pulsá Instalar. Requiere BepInEx 6 IL2CPP pre.1; el gestor ofrece instalarlo. El primer inicio genera las interfaces del juego. En Linux/Proton usá WINEDLLOVERRIDES=\"winhttp=n,b\" %command%. Dentro de la campaña, 2 alterna gancho/minigun; soltá el clic al cambiar y luego mantené clic izquierdo para disparar.",
+      "compatibilityNotes": "Desarrollo experimental para la campaña principal de SANABI Windows 1.3.53, también ejecutable por Proton. No aplica a Major Son ni al control de clones. Los temporizadores y la DLL se validaron; el combate, el apuntado y los efectos deben probarse dentro del juego. El plugin restaura el gancho ante errores de enlace.",
+      "verification": "experimental",
+      "preview": "mods/brazo-minigun/preview.png",
+      "readme": "mods/brazo-minigun/README.md"
+    },
+    {
+      "id": "capa-blanca",
+      "name": "Capa blanca",
+      "version": "1.0.0",
+      "author": "Kuro Kenshi",
+      "description": "Capa y faldones del héroe en blanco, conservando sombras y animación.",
+      "category": "skins",
+      "tags": [
+        "skin",
+        "capa"
+      ],
+      "requires": [],
+      "path": "mods/capa-blanca",
+      "size": 4171928,
+      "files": [
+        {
+          "src": "mods/capa-blanca/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "size": 4171928,
+          "sha256": "334c84d826a937b00e6bdebd0f8cec9bbf6d2a21d2e70146ce360f468054b62a"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+      "compatibilityNotes": "Campaña principal. Reemplaza snb.bundle: elegí una sola capa o skin del héroe a la vez. Conserva el gancho, los sonidos y las habilidades originales.",
+      "verification": "package",
+      "preview": "mods/capa-blanca/preview.png",
+      "readme": "mods/capa-blanca/README.md"
+    },
+    {
+      "id": "capa-creeper",
+      "name": "Capa Creeper · Estilo Minecraft",
+      "version": "1.1.0",
+      "author": "Kuro Kenshi",
+      "description": "Capa verde con rostro Creeper; reproduce el creeper.mp3 del usuario cuando el héroe recibe daño. Conserva los sprites de la capa.",
+      "category": "skins",
+      "tags": [
+        "skin",
+        "capa"
+      ],
+      "requires": [],
+      "path": "mods/capa-creeper",
+      "size": 13226623,
+      "files": [
+        {
+          "src": "mods/capa-creeper/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "size": 4234689,
+          "sha256": "636cdb8f832601e0bca20720f6515d33802f31cba123f1e0394be91670d2e415"
+        },
+        {
+          "src": "mods/capa-creeper/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "size": 8991934,
+          "sha256": "2b49ef2590835e0638d3e3fa509ffe3d66ddf54cddca808a3b600b3f47a828b5"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+      "compatibilityNotes": "SANABI 1.3.53, campaña principal. Reemplaza snb.bundle y el bundle de audio del jugador; puede entrar en conflicto con skins o sonidos del protagonista. Solo sustituye SFX_SNB_Damaged; los otros sonidos se conservan. Prueba dentro del juego pendiente.",
+      "verification": "package",
+      "preview": "mods/capa-creeper/preview.png",
+      "readme": "mods/capa-creeper/README.md"
+    },
+    {
+      "id": "traduccion-latam-fan",
+      "name": "Español LATAM · Traducción fan",
+      "version": "2025.6.21",
+      "author": "Kuro Kenshi y colaboradores",
+      "description": "Cinco ediciones históricas de la traducción LATAM, con selector, instalación reversible y soporte Windows / Steam-Proton en Linux. Descarga e instala los .bundle del repositorio según la fecha elegida; no traduce en tiempo real. Los bundles históricos son anteriores al español oficial y al DLC.",
+      "category": "traduccion",
+      "tags": [
+        "espanol",
+        "latam",
+        "texto"
+      ],
+      "requires": [],
+      "path": "mods/traduccion-latam-fan",
+      "size": 119179232,
+      "files": [
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap1.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle",
+          "size": 744723,
+          "sha256": "f83d1a60079c8c568e68636ffd753a5f1540271f719aa7802fcf658f134e1a33"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap2.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle",
+          "size": 583575,
+          "sha256": "f3d494ffe7362fef45aea15fa28d3ae5c0d69a3d50b5c7136aa1922934781ca6"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap3.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle",
+          "size": 824415,
+          "sha256": "db4dc4a8d32ff610b0359d2dfed9b365af05e7142fe04a2eff797d9ea00794a9"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap4.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle",
+          "size": 292856,
+          "sha256": "ed04ed95aa90e86bf771061488cadbf504c3281120163cd1861c2f8ced69bcf2"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap5.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle",
+          "size": 385921,
+          "sha256": "59e3d6877427af4ff514a6054b5c0f4ae69cbdb4516c7d64e558714fa2c715fd"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle",
+          "size": 180996,
+          "sha256": "3762c70521b9fcaec0cfce67d0ae2bde6917fe06cb21796dc0d27262710f3614"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/ending.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle",
+          "size": 27248,
+          "sha256": "0bc392a01f033909e2b4f6e7629e51d1ace107dcae62afa0b5c323cc16b88eaa"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/dataso_assets_all.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle",
+          "size": 4497933,
+          "sha256": "2f7d23abccef62a9430b52e75982fce0997084ce135fb18bc442b06d8813ab4b"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/font.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle",
+          "size": 53656615,
+          "sha256": "5552014f7d1267a1541997fca2689b12431a32ee470402427aa7440ff9acb9d0"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/imagen_del_prologo/prlg.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle",
+          "size": 26226264,
+          "sha256": "de480a23b5d85dad9f4d0ff02ab95fbac611983ee0aa019f6e84579ef8e0537d"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/mainscene.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle",
+          "size": 11394650,
+          "sha256": "a279a6ae3b133a51c37555e91b2e48d41094ec2ed23485466db36e3d279eb0b5"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/imagen_del_ending/chapending_endingcredit.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle",
+          "size": 17194917,
+          "sha256": "74c3fa438672ad71282ee5ae8e430f206e1ba0616d6ce472ffe62dda15f0b92d"
+        },
+        {
+          "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/imagen_del_capitulo_2/chap2_s02_e.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle",
+          "size": 3169119,
+          "sha256": "618332e4994ffdf75d78fd81b396f4761d39d2dbdd7e85301032ef2280dae99a"
+        }
+      ],
+      "gameVersion": "<1.3.48",
+      "homepage": "https://steamcommunity.com/sharedfiles/filedetails/?id=3345617617",
+      "installInstructions": "Elegí una edición en Versión de la traducción y pulsá Instalar. Cerrá SANABI antes de aplicar cambios. En Linux elegí la carpeta de SANABI de Steam/Proton, la misma que contiene SNB.exe y SNB_Data. No necesita Python, Wine adicional ni BepInEx. Para cambiar de edición, elegí otra y reinstalá; para restaurar el original, desactivá el mod.",
+      "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición.",
+      "verification": "package",
+      "preview": "mods/traduccion-latam-fan/preview.png",
+      "readme": "mods/traduccion-latam-fan/README.md",
+      "variants": [
+        {
+          "label": "21/06/2025 · LATAM fan",
+          "version": "2025.6.21",
+          "gameVersion": "<1.3.48",
+          "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición.",
+          "files": [
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap1.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle",
+              "size": 744723,
+              "sha256": "f83d1a60079c8c568e68636ffd753a5f1540271f719aa7802fcf658f134e1a33"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap2.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle",
+              "size": 583575,
+              "sha256": "f3d494ffe7362fef45aea15fa28d3ae5c0d69a3d50b5c7136aa1922934781ca6"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap3.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle",
+              "size": 824415,
+              "sha256": "db4dc4a8d32ff610b0359d2dfed9b365af05e7142fe04a2eff797d9ea00794a9"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap4.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle",
+              "size": 292856,
+              "sha256": "ed04ed95aa90e86bf771061488cadbf504c3281120163cd1861c2f8ced69bcf2"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/chap5.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle",
+              "size": 385921,
+              "sha256": "59e3d6877427af4ff514a6054b5c0f4ae69cbdb4516c7d64e558714fa2c715fd"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle",
+              "size": 180996,
+              "sha256": "3762c70521b9fcaec0cfce67d0ae2bde6917fe06cb21796dc0d27262710f3614"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/ending.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle",
+              "size": 27248,
+              "sha256": "0bc392a01f033909e2b4f6e7629e51d1ace107dcae62afa0b5c323cc16b88eaa"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/dataso_assets_all.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle",
+              "size": 4497933,
+              "sha256": "2f7d23abccef62a9430b52e75982fce0997084ce135fb18bc442b06d8813ab4b"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/font.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle",
+              "size": 53656615,
+              "sha256": "5552014f7d1267a1541997fca2689b12431a32ee470402427aa7440ff9acb9d0"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/imagen_del_prologo/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle",
+              "size": 26226264,
+              "sha256": "de480a23b5d85dad9f4d0ff02ab95fbac611983ee0aa019f6e84579ef8e0537d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/mainscene.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle",
+              "size": 11394650,
+              "sha256": "a279a6ae3b133a51c37555e91b2e48d41094ec2ed23485466db36e3d279eb0b5"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/imagen_del_ending/chapending_endingcredit.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle",
+              "size": 17194917,
+              "sha256": "74c3fa438672ad71282ee5ae8e430f206e1ba0616d6ce472ffe62dda15f0b92d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 21-06-2025 NEW/BUNDELS/imagen_del_capitulo_2/chap2_s02_e.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle",
+              "size": 3169119,
+              "sha256": "618332e4994ffdf75d78fd81b396f4761d39d2dbdd7e85301032ef2280dae99a"
+            }
+          ]
+        },
+        {
+          "label": "05/06/2025 · LATAM fan",
+          "version": "2025.6.5",
+          "gameVersion": "<1.3.48",
+          "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición.",
+          "files": [
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/chap1.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle",
+              "size": 744723,
+              "sha256": "f83d1a60079c8c568e68636ffd753a5f1540271f719aa7802fcf658f134e1a33"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/chap2.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle",
+              "size": 583575,
+              "sha256": "f3d494ffe7362fef45aea15fa28d3ae5c0d69a3d50b5c7136aa1922934781ca6"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/chap3.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle",
+              "size": 824415,
+              "sha256": "82f4e2280ebfa01398202d8a882bc6d657a06ce08acc331dd6c0f70b30a58b8d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/chap4.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle",
+              "size": 292856,
+              "sha256": "ed04ed95aa90e86bf771061488cadbf504c3281120163cd1861c2f8ced69bcf2"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/chap5.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle",
+              "size": 385921,
+              "sha256": "59e3d6877427af4ff514a6054b5c0f4ae69cbdb4516c7d64e558714fa2c715fd"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle",
+              "size": 180996,
+              "sha256": "3762c70521b9fcaec0cfce67d0ae2bde6917fe06cb21796dc0d27262710f3614"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/ending.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle",
+              "size": 27248,
+              "sha256": "0bc392a01f033909e2b4f6e7629e51d1ace107dcae62afa0b5c323cc16b88eaa"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/dataso_assets_all.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle",
+              "size": 4497933,
+              "sha256": "2f7d23abccef62a9430b52e75982fce0997084ce135fb18bc442b06d8813ab4b"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/font.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle",
+              "size": 53656615,
+              "sha256": "5552014f7d1267a1541997fca2689b12431a32ee470402427aa7440ff9acb9d0"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/imagen_del_prologo/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle",
+              "size": 26226264,
+              "sha256": "de480a23b5d85dad9f4d0ff02ab95fbac611983ee0aa019f6e84579ef8e0537d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/mainscene.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle",
+              "size": 11394650,
+              "sha256": "a279a6ae3b133a51c37555e91b2e48d41094ec2ed23485466db36e3d279eb0b5"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/imagen_del_ending/chapending_endingcredit.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle",
+              "size": 17194917,
+              "sha256": "74c3fa438672ad71282ee5ae8e430f206e1ba0616d6ce472ffe62dda15f0b92d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 05-06-2025/BUNDELS/imagen_del_capitulo_2/chap2_s02_e.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle",
+              "size": 3169119,
+              "sha256": "618332e4994ffdf75d78fd81b396f4761d39d2dbdd7e85301032ef2280dae99a"
+            }
+          ]
+        },
+        {
+          "label": "03/05/2025 · LATAM fan",
+          "version": "2025.5.3",
+          "gameVersion": "<1.3.48",
+          "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición.",
+          "files": [
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/chap1.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle",
+              "size": 271184,
+              "sha256": "dde6624c5e7d1d537ff4f17b780516fc4fcdbcd76d6ed887bdef66f9943dcec6"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/chap2.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle",
+              "size": 219643,
+              "sha256": "0aebe0dcbed744b392411da7676d533c5487dfab90615bf72a1d8ba1872d822f"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/chap3.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle",
+              "size": 314179,
+              "sha256": "e650c789d51e3b77ae21eea91ddcac81e19cf8131f42c357b461665f4f78aa1a"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/chap4.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle",
+              "size": 780239,
+              "sha256": "5e3a9545915840ffc4766274e6391afddadfe16fe76795de218847c3d9692d1b"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/chap5.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle",
+              "size": 385921,
+              "sha256": "59e3d6877427af4ff514a6054b5c0f4ae69cbdb4516c7d64e558714fa2c715fd"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle",
+              "size": 180996,
+              "sha256": "3762c70521b9fcaec0cfce67d0ae2bde6917fe06cb21796dc0d27262710f3614"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/ending.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle",
+              "size": 27248,
+              "sha256": "0bc392a01f033909e2b4f6e7629e51d1ace107dcae62afa0b5c323cc16b88eaa"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/dataso_assets_all.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle",
+              "size": 4497933,
+              "sha256": "2f7d23abccef62a9430b52e75982fce0997084ce135fb18bc442b06d8813ab4b"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/font.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle",
+              "size": 53656615,
+              "sha256": "5552014f7d1267a1541997fca2689b12431a32ee470402427aa7440ff9acb9d0"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/imagen_del_prologo/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle",
+              "size": 26226264,
+              "sha256": "de480a23b5d85dad9f4d0ff02ab95fbac611983ee0aa019f6e84579ef8e0537d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/mainscene.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle",
+              "size": 11394650,
+              "sha256": "a279a6ae3b133a51c37555e91b2e48d41094ec2ed23485466db36e3d279eb0b5"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/imagen_del_ending/chapending_endingcredit.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle",
+              "size": 17194917,
+              "sha256": "74c3fa438672ad71282ee5ae8e430f206e1ba0616d6ce472ffe62dda15f0b92d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 03-05-2025/BUNDELS/imagen_del_capitulo_2/chap2_s02_e.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle",
+              "size": 3169119,
+              "sha256": "618332e4994ffdf75d78fd81b396f4761d39d2dbdd7e85301032ef2280dae99a"
+            }
+          ]
+        },
+        {
+          "label": "01/05/2025 · LATAM fan",
+          "version": "2025.5.1",
+          "gameVersion": "<1.3.48",
+          "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición.",
+          "files": [
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/chap1.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle",
+              "size": 271184,
+              "sha256": "dde6624c5e7d1d537ff4f17b780516fc4fcdbcd76d6ed887bdef66f9943dcec6"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/chap2.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle",
+              "size": 219643,
+              "sha256": "0aebe0dcbed744b392411da7676d533c5487dfab90615bf72a1d8ba1872d822f"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/chap3.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle",
+              "size": 314179,
+              "sha256": "e650c789d51e3b77ae21eea91ddcac81e19cf8131f42c357b461665f4f78aa1a"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/chap4.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle",
+              "size": 292856,
+              "sha256": "ed04ed95aa90e86bf771061488cadbf504c3281120163cd1861c2f8ced69bcf2"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/chap5.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle",
+              "size": 385921,
+              "sha256": "59e3d6877427af4ff514a6054b5c0f4ae69cbdb4516c7d64e558714fa2c715fd"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle",
+              "size": 180996,
+              "sha256": "3762c70521b9fcaec0cfce67d0ae2bde6917fe06cb21796dc0d27262710f3614"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/ending.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle",
+              "size": 27248,
+              "sha256": "0bc392a01f033909e2b4f6e7629e51d1ace107dcae62afa0b5c323cc16b88eaa"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/dataso_assets_all.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle",
+              "size": 4497933,
+              "sha256": "2f7d23abccef62a9430b52e75982fce0997084ce135fb18bc442b06d8813ab4b"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/font.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle",
+              "size": 53656615,
+              "sha256": "5552014f7d1267a1541997fca2689b12431a32ee470402427aa7440ff9acb9d0"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/imagen_del_prologo/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle",
+              "size": 26226264,
+              "sha256": "de480a23b5d85dad9f4d0ff02ab95fbac611983ee0aa019f6e84579ef8e0537d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/mainscene.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle",
+              "size": 11394650,
+              "sha256": "a279a6ae3b133a51c37555e91b2e48d41094ec2ed23485466db36e3d279eb0b5"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/imagen_del_ending/chapending_endingcredit.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle",
+              "size": 17194917,
+              "sha256": "74c3fa438672ad71282ee5ae8e430f206e1ba0616d6ce472ffe62dda15f0b92d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 01-05-2025/BUNDELS/imagen_del_capitulo_2/chap2_s02_e.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle",
+              "size": 3169119,
+              "sha256": "618332e4994ffdf75d78fd81b396f4761d39d2dbdd7e85301032ef2280dae99a"
+            }
+          ]
+        },
+        {
+          "label": "26/04/2025 · LATAM fan",
+          "version": "2025.4.26",
+          "gameVersion": "<1.3.48",
+          "compatibilityNotes": "Edición histórica para SANABI anterior a 1.3.48. Windows y Linux mediante Steam/Proton usan los mismos bundles y rutas. No reemplaces datos del DLC moderno con esta edición.",
+          "files": [
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/chap1.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap1.bundle",
+              "size": 271154,
+              "sha256": "5ecb408eb24c64ed39bcf8efd40e57550cffee6c79ca704fd6863a2a02670810"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/chap2.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap2.bundle",
+              "size": 219643,
+              "sha256": "0aebe0dcbed744b392411da7676d533c5487dfab90615bf72a1d8ba1872d822f"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/chap3.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap3.bundle",
+              "size": 314179,
+              "sha256": "e650c789d51e3b77ae21eea91ddcac81e19cf8131f42c357b461665f4f78aa1a"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/chap4.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap4.bundle",
+              "size": 292856,
+              "sha256": "ed04ed95aa90e86bf771061488cadbf504c3281120163cd1861c2f8ced69bcf2"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/chap5.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/chap5.bundle",
+              "size": 385921,
+              "sha256": "59e3d6877427af4ff514a6054b5c0f4ae69cbdb4516c7d64e558714fa2c715fd"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/prlg.bundle",
+              "size": 180996,
+              "sha256": "3762c70521b9fcaec0cfce67d0ae2bde6917fe06cb21796dc0d27262710f3614"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/ending.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_text/ending.bundle",
+              "size": 27248,
+              "sha256": "0bc392a01f033909e2b4f6e7629e51d1ace107dcae62afa0b5c323cc16b88eaa"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/dataso_assets_all.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/dataso_assets_all.bundle",
+              "size": 4497933,
+              "sha256": "2f7d23abccef62a9430b52e75982fce0997084ce135fb18bc442b06d8813ab4b"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/font.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/text_assets_assets/_resource/font.bundle",
+              "size": 53656615,
+              "sha256": "5552014f7d1267a1541997fca2689b12431a32ee470402427aa7440ff9acb9d0"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/imagen_del_prologo/prlg.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/prlgresources_assets_assets/_event/prlg.bundle",
+              "size": 26226264,
+              "sha256": "de480a23b5d85dad9f4d0ff02ab95fbac611983ee0aa019f6e84579ef8e0537d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/mainscene.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/mainscene.unity.bundle",
+              "size": 11394650,
+              "sha256": "a279a6ae3b133a51c37555e91b2e48d41094ec2ed23485466db36e3d279eb0b5"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/imagen_del_ending/chapending_endingcredit.unity.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/gameplayscene_scenes_assets/__scene/01.build/chapending/chapending_endingcredit.unity.bundle",
+              "size": 17194917,
+              "sha256": "74c3fa438672ad71282ee5ae8e430f206e1ba0616d6ce472ffe62dda15f0b92d"
+            },
+            {
+              "src": "mods/traduccion-latam-fan/versiones/Español LATAM 26-04-2025/BUNDELS/imagen_del_capitulo_2/chap2_s02_e.bundle",
+              "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/chap2resources_assets_assets/_event/chap2/chap2_s02_e.bundle",
+              "size": 3169119,
+              "sha256": "618332e4994ffdf75d78fd81b396f4761d39d2dbdd7e85301032ef2280dae99a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "habilidades-major-son",
+      "name": "Major Song · Personaje real en campaña",
+      "version": "0.2.0",
+      "author": "Kuro Kenshi",
+      "description": "Reemplaza al personaje jugable en campaña principal cargando su escena y controlador original DlcPlayer, con sus animaciones y habilidades nativas. No recolorea sprites ni simula ataques externos. Intercambio experimental entre campaña y DLC.",
+      "category": "personajes",
+      "tags": [
+        "personaje real",
+        "controlador nativo",
+        "experimental"
+      ],
+      "requires": [
+        "bepinex"
+      ],
+      "path": "mods/habilidades-major-son",
+      "size": 16896,
+      "files": [
+        {
+          "src": "mods/habilidades-major-son/files/BepInEx/plugins/SanabiNativeMajor.dll",
+          "dst": "BepInEx/plugins/SanabiNativeMajor.dll",
+          "size": 16896,
+          "sha256": "542b5e7973d464bae8822f8bd272cb0907a9dd0446767ffb438680d0ece14748"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI. Desactivá los intercambios de skin Major Son en campaña/Héroe en DLC y sus plugins anteriores. Instalá este mod desde la ficha; requiere BepInEx 6 IL2CPP pre.1. Reiniciá el juego y cargá el capítulo correspondiente. Usa los controles originales del personaje. En Proton: WINEDLLOVERRIDES=\"winhttp=n,b\" %command%.",
+      "compatibilityNotes": "SANABI 1.3.53 con los recursos del DLC instalados. La DLL se compiló contra las interfaces del juego. Pendiente validar dentro de SANABI: carga del actor, HUD/vida, checkpoints, cinemáticas y scripts que esperan al personaje original. Las campañas incluyen mecánicas específicas del protagonista; no se garantiza completar todos sus capítulos con el otro controlador. No cambia el modo del capítulo ni archivos de partida. Se recomienda probar en selección de capítulos.",
+      "verification": "experimental",
+      "preview": "mods/habilidades-major-son/preview.png",
+      "readme": "mods/habilidades-major-son/README.md"
+    },
+    {
+      "id": "major-son-en-campana",
+      "name": "Major Song · Skin campaña principal",
+      "version": "1.1.0",
+      "author": "Kuro Kenshi",
+      "description": "Major Son reemplaza al protagonista de la campaña con una figura 20% más grande que la edición anterior, manteniendo escala uniforme entre todas las poses.",
+      "category": "skins",
+      "tags": [
+        "skin",
+        "intercambio"
+      ],
+      "requires": [],
+      "path": "mods/major-son-en-campana",
+      "size": 3143589,
+      "files": [
+        {
+          "src": "mods/major-son-en-campana/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "size": 3143589,
+          "sha256": "c089903b12d07531ed4d81943ae2a1907ec4611fe3b2221bf64aca5ab6f3aba5"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+      "compatibilityNotes": "Campaña principal: conserva el gancho y la jugabilidad del héroe. Intercambio de apariencia, no del controlador. Las animaciones se adaptan entre campañas; las poses sin equivalente usan una pose cercana o de reposo. Las escenas con sprites propios no se sustituyen. Prueba de movimiento dentro del juego pendiente. Conflicta con capas y otras skins del héroe: reemplaza el mismo bundle.",
+      "verification": "package",
+      "preview": "mods/major-son-en-campana/preview.png",
+      "readme": "mods/major-son-en-campana/README.md"
+    },
+    {
+      "id": "habilidades-heroe-dlc",
+      "name": "Sargento · Personaje real en DLC",
+      "version": "0.2.0",
+      "author": "Kuro Kenshi",
+      "description": "Reemplaza al personaje jugable en DLC cargando su escena y controlador original Player, con sus animaciones y habilidades nativas. No recolorea sprites ni simula ataques externos. Intercambio experimental entre campaña y DLC.",
+      "category": "personajes",
+      "tags": [
+        "personaje real",
+        "controlador nativo",
+        "experimental"
+      ],
+      "requires": [
+        "bepinex"
+      ],
+      "path": "mods/habilidades-heroe-dlc",
+      "size": 16896,
+      "files": [
+        {
+          "src": "mods/habilidades-heroe-dlc/files/BepInEx/plugins/SanabiNativeHero.dll",
+          "dst": "BepInEx/plugins/SanabiNativeHero.dll",
+          "size": 16896,
+          "sha256": "3f7a8a36ff2f13fbac812d1d36cd21b401aa7637026c3c7e86b02b52647b6921"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI. Desactivá los intercambios de skin Major Son en campaña/Héroe en DLC y sus plugins anteriores. Instalá este mod desde la ficha; requiere BepInEx 6 IL2CPP pre.1. Reiniciá el juego y cargá el capítulo correspondiente. Usa los controles originales del personaje. En Proton: WINEDLLOVERRIDES=\"winhttp=n,b\" %command%.",
+      "compatibilityNotes": "SANABI 1.3.53 con los recursos del DLC instalados. La DLL se compiló contra las interfaces del juego. Pendiente validar dentro de SANABI: carga del actor, HUD/vida, checkpoints, cinemáticas y scripts que esperan al personaje original. Las campañas incluyen mecánicas específicas del protagonista; no se garantiza completar todos sus capítulos con el otro controlador. No cambia el modo del capítulo ni archivos de partida. Se recomienda probar en selección de capítulos.",
+      "verification": "experimental",
+      "preview": "mods/habilidades-heroe-dlc/preview.png",
+      "readme": "mods/habilidades-heroe-dlc/README.md"
+    },
+    {
+      "id": "heroe-en-dlc",
+      "name": "Sargento · Skin DLC",
+      "version": "1.0.0",
+      "author": "Kuro Kenshi",
+      "description": "El protagonista original reemplaza visualmente a Major Son en el DLC.",
+      "category": "skins",
+      "tags": [
+        "skin",
+        "intercambio"
+      ],
+      "requires": [],
+      "path": "mods/heroe-en-dlc",
+      "size": 2675636,
+      "files": [
+        {
+          "src": "mods/heroe-en-dlc/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/dlcplayerscene.unity.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/mainscene_scenes_assets/__scene/01.build/main/dlcplayerscene.unity.bundle",
+          "size": 2675636,
+          "sha256": "f5e6b09f7f56a9eb1b667e1d74cbb068d6899b243e91e30d9946eaacb299ade5"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+      "compatibilityNotes": "DLC: conserva los ataques y la jugabilidad de Major Son. Intercambio de apariencia, no del controlador. Las animaciones se adaptan entre campañas; las poses sin equivalente usan una pose cercana o de reposo. Las escenas con sprites propios no se sustituyen. Prueba de movimiento dentro del juego pendiente. Puede combinarse con las capas de la campaña principal.",
+      "verification": "package",
+      "preview": "mods/heroe-en-dlc/preview.png",
+      "readme": "mods/heroe-en-dlc/README.md"
+    },
+    {
+      "id": "spider-noir",
+      "name": "Spider Noir",
+      "version": "1.1.0",
+      "author": "Kuro Kenshi",
+      "description": "Máscara negra con lentes blancos, sombrero y gabardina oscura. Telaraña blanca y sonidos sintetizados del gancho.",
+      "category": "skins",
+      "tags": [
+        "skin",
+        "telaraña",
+        "audio",
+        "noir"
+      ],
+      "requires": [],
+      "path": "mods/spider-noir",
+      "size": 12184050,
+      "files": [
+        {
+          "src": "mods/spider-noir/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "size": 2829989,
+          "sha256": "497fef29676c029de2df35c81b655c7e3be979e0e43ff82fa261d83dc3fc824d"
+        },
+        {
+          "src": "mods/spider-noir/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "size": 9354061,
+          "sha256": "944bda2a51f7da632ef70ed6969ef89da9a4a0494bbbce693b321e2b3fdc9d7f"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+      "compatibilityNotes": "Campaña principal. Máscara y brazo redibujados; malla de render ampliada para evitar recortes. Elegí una sola skin o capa del héroe a la vez. Conserva los sonidos de telaraña de la versión anterior. Prueba dentro del juego pendiente.",
+      "verification": "package",
+      "preview": "mods/spider-noir/preview.png",
+      "readme": "mods/spider-noir/README.md"
+    },
+    {
+      "id": "traje-aracnido",
+      "name": "Spider-Man",
+      "version": "1.2.0",
+      "author": "Kuro Kenshi",
+      "description": "Traje clásico rojo y azul, máscara de ojos blancos y emblema de araña. Sin sombrero ni capa. Gancho de telaraña y sonidos sintetizados.",
+      "category": "skins",
+      "tags": [
+        "skin",
+        "telaraña",
+        "audio",
+        "classic"
+      ],
+      "requires": [],
+      "path": "mods/traje-aracnido",
+      "size": 12286944,
+      "files": [
+        {
+          "src": "mods/traje-aracnido/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "size": 2932883,
+          "sha256": "fa7e0d65c49178a59e5151de4f14156add74662e7b54d1dfca5f34d9a0f6aa7f"
+        },
+        {
+          "src": "mods/traje-aracnido/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "size": 9354061,
+          "sha256": "944bda2a51f7da632ef70ed6969ef89da9a4a0494bbbce693b321e2b3fdc9d7f"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+      "compatibilityNotes": "Campaña principal. Máscara y brazo redibujados; malla de render ampliada para evitar recortes. Elegí una sola skin o capa del héroe a la vez. Conserva los sonidos de telaraña de la versión anterior. Prueba dentro del juego pendiente.",
+      "verification": "package",
+      "preview": "mods/traje-aracnido/preview.png",
+      "readme": "mods/traje-aracnido/README.md"
+    },
+    {
+      "id": "spider-2099",
+      "name": "Spider-Man 2099 · Capa roja",
+      "version": "1.2.0",
+      "author": "Kuro Kenshi",
+      "description": "Spider-Man 2099 con capa roja en todas las poses del cuerpo, incluido reposo. Conserva el diseño de esta skin y los sonidos de telaraña. La variante Modelo completo usa figuras y animaciones distintas.",
+      "category": "skins",
+      "tags": [
+        "skin",
+        "telaraña",
+        "audio",
+        "2099"
+      ],
+      "requires": [],
+      "path": "mods/spider-2099",
+      "size": 12357937,
+      "files": [
+        {
+          "src": "mods/spider-2099/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "size": 3003876,
+          "sha256": "6165ec982d417779b35f611271239053425654e617eae74c7ab0cbfabafc25c8"
+        },
+        {
+          "src": "mods/spider-2099/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "size": 9354061,
+          "sha256": "944bda2a51f7da632ef70ed6969ef89da9a4a0494bbbce693b321e2b3fdc9d7f"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+      "compatibilityNotes": "Campaña principal. Máscara y brazo redibujados; malla de render ampliada para evitar recortes. Elegí una sola skin o capa del héroe a la vez. Conserva los sonidos de telaraña de la versión anterior. Prueba dentro del juego pendiente.",
+      "verification": "package",
+      "preview": "mods/spider-2099/preview.png",
+      "readme": "mods/spider-2099/README.md"
+    },
+    {
+      "id": "spider-2099-modelo-completo",
+      "name": "Spider-Man 2099 · Modelo completo",
+      "version": "1.2.0",
+      "author": "Kuro Kenshi · atlas de referencia del usuario",
+      "description": "Figura completa de Spider-Man 2099 con silueta y poses independientes del protagonista, traje azul y rojo y capa roja integrada en todos los cuadros, incluido reposo.",
+      "category": "skins",
+      "tags": [
+        "modelo completo",
+        "animaciones",
+        "spider-man"
+      ],
+      "requires": [],
+      "path": "mods/spider-2099-modelo-completo",
+      "size": 16149045,
+      "files": [
+        {
+          "src": "mods/spider-2099-modelo-completo/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "size": 6794984,
+          "sha256": "195e85b519f3da3fb4714a7c19c3beb71e6c55353a1fe6f407d2e54f25c90240"
+        },
+        {
+          "src": "mods/spider-2099-modelo-completo/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "size": 9354061,
+          "sha256": "944bda2a51f7da632ef70ed6969ef89da9a4a0494bbbce693b321e2b3fdc9d7f"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+      "compatibilityNotes": "SANABI 1.3.53, campaña principal. Sustituye el cuerpo completo y las secuencias visuales; conserva los controladores, colisiones y tiempos del juego. El gancho funciona como telaraña y no muestra el brazo mecánico. Los movimientos narrativos sin equivalente usan reposo. Conflicta con otras skins/capas del protagonista. Prueba de movimiento dentro del juego pendiente.",
+      "verification": "package",
+      "preview": "mods/spider-2099-modelo-completo/preview.png",
+      "readme": "mods/spider-2099-modelo-completo/README.md"
+    },
+    {
+      "id": "spiderman-modelo-completo",
+      "name": "Spider-Man · Modelo completo",
+      "version": "1.2.0",
+      "author": "Kuro Kenshi · atlas de referencia del usuario",
+      "description": "Figura completa de Spider-Man con sprites y secuencias del atlas de referencia: reposo, carrera, salto, balanceo, pared, disparo y daño. Sin capa ni brazo mecánico.",
+      "category": "skins",
+      "tags": [
+        "modelo completo",
+        "animaciones",
+        "spider-man"
+      ],
+      "requires": [],
+      "path": "mods/spiderman-modelo-completo",
+      "size": 16151108,
+      "files": [
+        {
+          "src": "mods/spiderman-modelo-completo/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/player_assets_assets/_resource/character/snb.bundle",
+          "size": 6797047,
+          "sha256": "0d1afd955c6730ba673e38646a689699cfc36b257b8063b2c417db508a096546"
+        },
+        {
+          "src": "mods/spiderman-modelo-completo/files/SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "dst": "SNB_Data/StreamingAssets/aa/StandaloneWindows64/sfx_assets_assets/_sound/_sound/new_sfx/player.bundle",
+          "size": 9354061,
+          "sha256": "944bda2a51f7da632ef70ed6969ef89da9a4a0494bbbce693b321e2b3fdc9d7f"
+        }
+      ],
+      "gameVersion": "1.3.53",
+      "installInstructions": "Cerrá SANABI, elegí su carpeta en Ajustes y pulsá Instalar. El mod se instala y activa automáticamente. El gestor conserva el original y avisa si hay conflictos. Para volver al diseño original, desactivá el mod desde Mis mods.",
+      "compatibilityNotes": "SANABI 1.3.53, campaña principal. Sustituye el cuerpo completo y las secuencias visuales; conserva los controladores, colisiones y tiempos del juego. El gancho funciona como telaraña y no muestra el brazo mecánico. Los movimientos narrativos sin equivalente usan reposo. Conflicta con otras skins/capas del protagonista. Prueba de movimiento dentro del juego pendiente.",
+      "verification": "package",
+      "preview": "mods/spiderman-modelo-completo/preview.png",
+      "readme": "mods/spiderman-modelo-completo/README.md"
+    }
+  ]
+}
