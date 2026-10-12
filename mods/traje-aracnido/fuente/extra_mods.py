@@ -258,7 +258,7 @@ def swaps(game,to_dlc):
     count=write_images(env,ts,images,ROOT/'mods'/slug/'files'/target_rel)
     folder=ROOT/'mods'/slug
     (folder/'animation-map.json').write_text(json.dumps(mapping,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    name='El héroe en el DLC' if to_dlc else 'Major Son en la campaña principal'
+    name='Sargento · Skin DLC' if to_dlc else 'Major Song · Skin campaña principal'
     desc='El protagonista original reemplaza visualmente a Major Son en el DLC.' if to_dlc else 'Major Son reemplaza visualmente al protagonista en la campaña principal.'
     notes=('DLC: conserva los ataques y la jugabilidad de Major Son. ' if to_dlc else 'Campaña principal: conserva el gancho y la jugabilidad del héroe. ')
     notes+='Intercambio de apariencia, no del controlador. Las animaciones se adaptan entre campañas; las poses sin equivalente usan una pose cercana o de reposo. Las escenas con sprites propios no se sustituyen. Prueba de movimiento dentro del juego pendiente. '
