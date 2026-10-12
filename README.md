@@ -41,8 +41,6 @@ Las tarjetas muestran el README y permiten instalar releases o archivos compatib
 
 En **Subir mod**, elegí los archivos y completá nombre, versión, autor, categoría, descripción y portada. El gestor prepara `mods/<id>/mod.json`, `mods/<id>/files/` y la miniatura. Al enviar, crea una rama en el repositorio o en el fork de tu cuenta y abre un pull request a `main`. El mod entra al catálogo cuando se aprueba y fusiona; GitHub Actions valida rutas y hashes y regenera `catalog.json`.
 
-Subir requiere autorización de **tu propia cuenta de GitHub**. Leer el catálogo, buscar mods e instalar paquetes públicos no requiere compartir una credencial del administrador. El programa nunca incluye un token del propietario ni un secreto de OAuth. También podés **Exportar ZIP** y compartir el paquete manualmente sin conectar GitHub.
-
 ### Configurar el inicio de sesión (administrador)
 
 Para el botón de autorización en el navegador, registrá una OAuth App de GitHub y habilitá **Device flow**. Guardá únicamente su **Client ID público** en la variable de repositorio `GITHUB_CLIENT_ID`. El workflow lo incorpora a los builds. Ese identificador no concede acceso a una cuenta; cada usuario aprueba su propio acceso. No se necesita servidor ni `client_secret`. Mientras esa variable no esté configurada, queda la conexión avanzada mediante un token personal; no se presenta el login por navegador como disponible.
